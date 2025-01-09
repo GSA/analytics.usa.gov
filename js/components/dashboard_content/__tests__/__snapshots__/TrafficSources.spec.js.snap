@@ -36,6 +36,21 @@ exports[`TrafficSources renders 1`] = `
             </span>
           </span>
         </a>
+        <a
+          aria-label="top-session-channel-group-30-days.csv"
+          href="http://www.example.com/data//top-session-channel-group-30-days.json"
+        >
+          <svg
+            aria-hidden="true"
+            class="usa-icon margin-bottom-neg-05 margin-left-05"
+            focusable="false"
+            role="img"
+          >
+            <use
+              xlink:href="/assets/uswds/img/sprite.svg#file_download"
+            />
+          </svg>
+        </a>
       </div>
       <div
         class="text--capitalize"
@@ -44,7 +59,7 @@ exports[`TrafficSources renders 1`] = `
           id="chart_session_default_channel_group"
         >
           <div
-            class="data chart__bar-chart margin-top-4"
+            class="data chart__bar-chart margin-top-2"
           />
         </figure>
       </div>
@@ -80,6 +95,21 @@ exports[`TrafficSources renders 1`] = `
             </span>
           </span>
         </a>
+        <a
+          aria-label="top-session-source-medium-30-days.csv"
+          href="http://www.example.com/data//top-session-source-medium-30-days.json"
+        >
+          <svg
+            aria-hidden="true"
+            class="usa-icon margin-bottom-neg-05 margin-left-05"
+            focusable="false"
+            role="img"
+          >
+            <use
+              xlink:href="/assets/uswds/img/sprite.svg#file_download"
+            />
+          </svg>
+        </a>
       </div>
       <div
         class="text--capitalize"
@@ -88,7 +118,7 @@ exports[`TrafficSources renders 1`] = `
           id="chart_session_source_medium"
         >
           <div
-            class="data chart__bar-chart margin-top-4"
+            class="data chart__bar-chart margin-top-2"
           />
         </figure>
       </div>

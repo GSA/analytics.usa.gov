@@ -20,14 +20,15 @@ import Tooltip from "../tooltip/Tooltip";
  * @returns {import('react').ReactElement} The rendered element
  */
 function DevicesChart({ dataHrefBase }) {
-  const dataURL = `${dataHrefBase}/devices.json`;
+  const jsonDataURL = `${dataHrefBase}/devices.json`;
+  const csvDataURL = `${dataHrefBase}/devices.csv`;
   const ref = useRef(null);
   const [deviceData, setDeviceData] = useState(null);
 
   useEffect(() => {
     const initDevicesChart = async () => {
       if (!deviceData) {
-        const data = await DataLoader.loadJSON(dataURL);
+        const data = await DataLoader.loadJSON(jsonDataURL);
         await setDeviceData(data);
       } else {
         const chartBuilder = new ChartBuilder();
@@ -65,9 +66,19 @@ function DevicesChart({ dataHrefBase }) {
             Devices
           </Tooltip>
         </a>
+        <a href={csvDataURL} aria-label="devices.csv">
+          <svg
+            className="usa-icon margin-bottom-neg-05 margin-left-05"
+            aria-hidden="true"
+            focusable="false"
+            role="img"
+          >
+            <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+          </svg>
+        </a>
       </div>
       <figure id="chart_device_types" ref={ref}>
-        <div className="data chart__bar-chart text--capitalize margin-top-4"></div>
+        <div className="data chart__bar-chart text--capitalize margin-top-2"></div>
       </figure>
     </>
   );

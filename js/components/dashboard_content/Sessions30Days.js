@@ -18,14 +18,15 @@ import formatters from "../../lib/chart_helpers/formatters";
  * @returns {import('react').ReactElement} The rendered element
  */
 function Sessions30Days({ dataHrefBase }) {
-  const dataURL = `${dataHrefBase}/daily-sessions-30-days.json`;
+  const jsonDataURL = `${dataHrefBase}/daily-sessions-30-days.json`;
+  const csvDataURL = `${dataHrefBase}/daily-sessions-30-days.csv`;
   const ref = useRef(null);
   const [sessionData, setSessionData] = useState(null);
 
   useEffect(() => {
     const initSessionsChart = async () => {
       if (!sessionData) {
-        const data = await DataLoader.loadJSON(dataURL);
+        const data = await DataLoader.loadJSON(jsonDataURL);
         await setSessionData(data);
       } else {
         const chartBuilder = new ChartBuilder();
@@ -67,9 +68,24 @@ function Sessions30Days({ dataHrefBase }) {
   }, [sessionData]);
 
   return (
-    <div className="chart__time-series__container" ref={ref}>
-      <svg className="data chart__time-series"></svg>
-    </div>
+    <>
+      <div className="chart__title">
+        Daily Sessions
+        <a href={csvDataURL} aria-label="daily-sessions-30-days.csv">
+          <svg
+            className="usa-icon margin-bottom-neg-05 margin-left-05"
+            aria-hidden="true"
+            focusable="false"
+            role="img"
+          >
+            <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+          </svg>
+        </a>
+      </div>
+      <div className="chart__time-series__container" ref={ref}>
+        <svg className="data chart__time-series"></svg>
+      </div>
+    </>
   );
 }
 

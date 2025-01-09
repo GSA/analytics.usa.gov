@@ -27,6 +27,21 @@ exports[`EngagementRate when data is loaded renders a component with data loaded
       </span>
     </span>
   </a>
+  <a
+    aria-label="engagement-rate-30-days.csv"
+    href="http://www.example.com/data//engagement-rate-30-days.csv"
+  >
+    <svg
+      aria-hidden="true"
+      class="usa-icon margin-bottom-neg-05 margin-left-05"
+      focusable="false"
+      role="img"
+    >
+      <use
+        xlink:href="/assets/uswds/img/sprite.svg#file_download"
+      />
+    </svg>
+  </a>
   <div>
     <div
       class="data chart__rate padding-top-05"
@@ -64,6 +79,21 @@ exports[`EngagementRate when data is not loaded renders a component in loading s
       </span>
     </span>
   </a>
+  <a
+    aria-label="engagement-rate-30-days.csv"
+    href="http://www.example.com/data//engagement-rate-30-days.csv"
+  >
+    <svg
+      aria-hidden="true"
+      class="usa-icon margin-bottom-neg-05 margin-left-05"
+      focusable="false"
+      role="img"
+    >
+      <use
+        xlink:href="/assets/uswds/img/sprite.svg#file_download"
+      />
+    </svg>
+  </a>
   <div>
     <div
       class="data chart__rate padding-top-05"
@@ -98,6 +128,21 @@ exports[`EngagementRate when data loading has an error renders a component in er
         The percentage of sessions where users were engaged with the site or application.
       </span>
     </span>
+  </a>
+  <a
+    aria-label="engagement-rate-30-days.csv"
+    href="http://www.example.com/data//engagement-rate-30-days.csv"
+  >
+    <svg
+      aria-hidden="true"
+      class="usa-icon margin-bottom-neg-05 margin-left-05"
+      focusable="false"
+      role="img"
+    >
+      <use
+        xlink:href="/assets/uswds/img/sprite.svg#file_download"
+      />
+    </svg>
   </a>
   <div>
     <div

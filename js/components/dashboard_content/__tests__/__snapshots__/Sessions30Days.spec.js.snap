@@ -3,6 +3,26 @@
 exports[`Sessions30Days when data is not loaded renders a component in loading state 1`] = `
 <DocumentFragment>
   <div
+    class="chart__title"
+  >
+    Daily Sessions
+    <a
+      aria-label="daily-sessions-30-days.csv"
+      href="http://www.example.com/data//daily-sessions-30-days.csv"
+    >
+      <svg
+        aria-hidden="true"
+        class="usa-icon margin-bottom-neg-05 margin-left-05"
+        focusable="false"
+        role="img"
+      >
+        <use
+          xlink:href="/assets/uswds/img/sprite.svg#file_download"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
     class="chart__time-series__container"
   >
     <svg
@@ -14,6 +34,26 @@ exports[`Sessions30Days when data is not loaded renders a component in loading s
 
 exports[`Sessions30Days when data loading has an error renders a component in error state 1`] = `
 <DocumentFragment>
+  <div
+    class="chart__title"
+  >
+    Daily Sessions
+    <a
+      aria-label="daily-sessions-30-days.csv"
+      href="http://www.example.com/data//daily-sessions-30-days.csv"
+    >
+      <svg
+        aria-hidden="true"
+        class="usa-icon margin-bottom-neg-05 margin-left-05"
+        focusable="false"
+        role="img"
+      >
+        <use
+          xlink:href="/assets/uswds/img/sprite.svg#file_download"
+        />
+      </svg>
+    </a>
+  </div>
   <div
     class="chart__time-series__container"
   >

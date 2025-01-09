@@ -4,10 +4,10 @@ exports[`TopPagesRealtime when data is loaded renders a component with data load
 <DocumentFragment>
   <figure>
     <div
-      class="data chart__bar-chart text--capitalize margin-top-4"
+      class="data chart__bar-chart text--capitalize margin-top-1"
     >
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -20,12 +20,12 @@ exports[`TopPagesRealtime when data is loaded renders a component with data load
           20,914
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 32%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -38,12 +38,12 @@ exports[`TopPagesRealtime when data is loaded renders a component with data load
           66,892
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 100%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -56,12 +56,12 @@ exports[`TopPagesRealtime when data is loaded renders a component with data load
           46,661
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 70%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -74,12 +74,12 @@ exports[`TopPagesRealtime when data is loaded renders a component with data load
           15,458
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 24%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -92,12 +92,12 @@ exports[`TopPagesRealtime when data is loaded renders a component with data load
           58,812
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 88%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -110,12 +110,12 @@ exports[`TopPagesRealtime when data is loaded renders a component with data load
           4,859
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 8%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -128,12 +128,12 @@ exports[`TopPagesRealtime when data is loaded renders a component with data load
           19,428
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 30%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -146,12 +146,12 @@ exports[`TopPagesRealtime when data is loaded renders a component with data load
           37,616
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 57%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -164,12 +164,12 @@ exports[`TopPagesRealtime when data is loaded renders a component with data load
           46,010
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 69%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -182,7 +182,7 @@ exports[`TopPagesRealtime when data is loaded renders a component with data load
           47,373
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 71%;"
         />
       </div>
@@ -195,7 +195,7 @@ exports[`TopPagesRealtime when data is not loaded renders a component in loading
 <DocumentFragment>
   <figure>
     <div
-      class="data chart__bar-chart text--capitalize margin-top-4"
+      class="data chart__bar-chart text--capitalize margin-top-1"
     />
   </figure>
 </DocumentFragment>
@@ -205,7 +205,7 @@ exports[`TopPagesRealtime when data loading has an error renders a component in 
 <DocumentFragment>
   <figure>
     <div
-      class="data chart__bar-chart text--capitalize margin-top-4"
+      class="data chart__bar-chart text--capitalize margin-top-1"
     />
   </figure>
 </DocumentFragment>

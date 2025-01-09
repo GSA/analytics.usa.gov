@@ -29,6 +29,21 @@ exports[`TopLanguagesHistorical when data is loaded renders a component with dat
         </span>
       </span>
     </a>
+    <a
+      aria-label="language.csv"
+      href="http://www.example.com/data//language.csv"
+    >
+      <svg
+        aria-hidden="true"
+        class="usa-icon margin-bottom-neg-05 margin-left-05"
+        focusable="false"
+        role="img"
+      >
+        <use
+          xlink:href="/assets/uswds/img/sprite.svg#file_download"
+        />
+      </svg>
+    </a>
   </div>
   <figure
     id="chart_top-languages"
@@ -37,7 +52,7 @@ exports[`TopLanguagesHistorical when data is loaded renders a component with dat
       class="data chart__bar-chart text--capitalize margin-top-2"
     >
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -50,12 +65,12 @@ exports[`TopLanguagesHistorical when data is loaded renders a component with dat
           91.2%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 91%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -68,12 +83,12 @@ exports[`TopLanguagesHistorical when data is loaded renders a component with dat
           5.3%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 5%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -86,12 +101,12 @@ exports[`TopLanguagesHistorical when data is loaded renders a component with dat
           0.9%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 1%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -104,12 +119,12 @@ exports[`TopLanguagesHistorical when data is loaded renders a component with dat
           0.5%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -122,12 +137,12 @@ exports[`TopLanguagesHistorical when data is loaded renders a component with dat
           0.2%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -140,12 +155,12 @@ exports[`TopLanguagesHistorical when data is loaded renders a component with dat
           0.3%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -158,12 +173,12 @@ exports[`TopLanguagesHistorical when data is loaded renders a component with dat
           0.3%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -176,12 +191,12 @@ exports[`TopLanguagesHistorical when data is loaded renders a component with dat
           0.2%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -194,12 +209,12 @@ exports[`TopLanguagesHistorical when data is loaded renders a component with dat
           0.2%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -212,7 +227,7 @@ exports[`TopLanguagesHistorical when data is loaded renders a component with dat
           0.2%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
@@ -249,6 +264,21 @@ exports[`TopLanguagesHistorical when data is not loaded renders a component in l
           The name of the language of a user's browser or device.
         </span>
       </span>
+    </a>
+    <a
+      aria-label="language.csv"
+      href="http://www.example.com/data//language.csv"
+    >
+      <svg
+        aria-hidden="true"
+        class="usa-icon margin-bottom-neg-05 margin-left-05"
+        focusable="false"
+        role="img"
+      >
+        <use
+          xlink:href="/assets/uswds/img/sprite.svg#file_download"
+        />
+      </svg>
     </a>
   </div>
   <figure
@@ -289,6 +319,21 @@ exports[`TopLanguagesHistorical when data loading has an error renders a compone
           The name of the language of a user's browser or device.
         </span>
       </span>
+    </a>
+    <a
+      aria-label="language.csv"
+      href="http://www.example.com/data//language.csv"
+    >
+      <svg
+        aria-hidden="true"
+        class="usa-icon margin-bottom-neg-05 margin-left-05"
+        focusable="false"
+        role="img"
+      >
+        <use
+          xlink:href="/assets/uswds/img/sprite.svg#file_download"
+        />
+      </svg>
     </a>
   </div>
   <figure

@@ -118,25 +118,47 @@ exports[`SidebarContent when 7 days tab is selected renders a component with top
         role="tabpanel"
       >
         <section
-          class="sidebar__tab__content"
+          class="sidebar__tab__content padding-bottom-1 border-bottom-1px border-base-light"
         >
-          <p>
+          <p
+            class="margin-bottom-1"
+          >
             Sessions over the last week on 
             <strong>
               hostnames
             </strong>
             , including traffic to all web pages and app screens within that hostname.
           </p>
+          <p
+            class="margin-top-05 margin-bottom-105"
+          >
+            <a
+              aria-label="top-domains-7-days.csv"
+              href="http://www.example.com/data//top-domains-7-days.csv"
+            >
+              Download the data
+              <svg
+                aria-hidden="true"
+                class="usa-icon margin-bottom-neg-05 margin-left-05"
+                focusable="false"
+                role="img"
+              >
+                <use
+                  xlink:href="/assets/uswds/img/sprite.svg#file_download"
+                />
+              </svg>
+            </a>
+          </p>
           <figure
             data-source="http://www.example.com/data//top-domains-7-days.json"
           >
             <div
-              class="data chart__bar-chart text--lowercase margin-top-4"
+              class="data chart__bar-chart text--lowercase margin-top-1"
             />
           </figure>
         </section>
         <section
-          class="top-downloads padding-bottom-1"
+          class="top-downloads padding-bottom-1 border-bottom-1px border-base-light"
         >
           <div
             class="top-downloads__headline"
@@ -178,18 +200,38 @@ exports[`SidebarContent when 7 days tab is selected renders a component with top
               </span>
             </h3>
           </div>
-          <h4
-            class="text--normal"
+          <p
+            class="text--normal margin-top-neg-1 margin-bottom-0"
           >
             <em>
               Top file downloads over the last week on Department of Interior hostnames.
             </em>
-          </h4>
+          </p>
+          <p
+            class="margin-top-1 margin-bottom-0"
+          >
+            <a
+              aria-label="top-downloads-7-days.csv"
+              href="http://www.example.com/data//top-downloads-7-days.csv"
+            >
+              Download the data
+              <svg
+                aria-hidden="true"
+                class="usa-icon margin-bottom-neg-05 margin-left-05"
+                focusable="false"
+                role="img"
+              >
+                <use
+                  xlink:href="/assets/uswds/img/sprite.svg#file_download"
+                />
+              </svg>
+            </a>
+          </p>
           <figure
             class="top-downloads__bar-chart"
           >
             <div
-              class="data chart__bar-chart text--capitalize margin-top-4"
+              class="data chart__bar-chart text--capitalize margin-top-2"
             />
           </figure>
         </section>
@@ -236,13 +278,33 @@ exports[`SidebarContent when 7 days tab is selected renders a component with top
               </span>
             </h3>
           </div>
-          <h4
-            class="text--normal"
+          <p
+            class="text--normal margin-top-neg-1 margin-bottom-0"
           >
             <em>
               Video play data is unavailable for Department of Interior hostnames.
             </em>
-          </h4>
+          </p>
+          <p
+            class="margin-top-1 margin-bottom-0"
+          >
+            <a
+              aria-label="top-video-plays-7-days.csv"
+              href="http://www.example.com/data//top-video-plays-7-days.csv"
+            >
+              Download the data
+              <svg
+                aria-hidden="true"
+                class="usa-icon margin-bottom-neg-05 margin-left-05"
+                focusable="false"
+                role="img"
+              >
+                <use
+                  xlink:href="/assets/uswds/img/sprite.svg#file_download"
+                />
+              </svg>
+            </a>
+          </p>
           <div />
         </section>
       </div>
@@ -381,31 +443,47 @@ exports[`SidebarContent when 30 days tab is selected renders a component with to
         role="tabpanel"
       >
         <section
-          class="sidebar__tab__content"
+          class="sidebar__tab__content padding-bottom-1 border-bottom-1px border-base-light"
         >
-          <p>
+          <p
+            class="margin-bottom-1"
+          >
             Sessions over the last month on 
             <strong>
               hostnames
             </strong>
-            , including traffic to all web pages and app screens within that hostname. 
+            , including traffic to all web pages and app screens within that hostname.
+          </p>
+          <p
+            class="margin-top-05 margin-bottom-105"
+          >
             <a
+              aria-label="top-100000-domains-30-days.csv"
               href="http://www.example.com/data//top-100000-domains-30-days.csv"
             >
-              Download the full dataset
+              Download the data
+              <svg
+                aria-hidden="true"
+                class="usa-icon margin-bottom-neg-05 margin-left-05"
+                focusable="false"
+                role="img"
+              >
+                <use
+                  xlink:href="/assets/uswds/img/sprite.svg#file_download"
+                />
+              </svg>
             </a>
-            .
           </p>
           <figure
             data-source="http://www.example.com/data//top-domains-30-days.json"
           >
             <div
-              class="data chart__bar-chart text--lowercase margin-top-4"
+              class="data chart__bar-chart text--lowercase margin-top-1"
             />
           </figure>
         </section>
         <section
-          class="top-downloads padding-bottom-1"
+          class="top-downloads padding-bottom-1 border-bottom-1px border-base-light"
         >
           <div
             class="top-downloads__headline"
@@ -447,18 +525,38 @@ exports[`SidebarContent when 30 days tab is selected renders a component with to
               </span>
             </h3>
           </div>
-          <h4
-            class="text--normal"
+          <p
+            class="text--normal margin-top-neg-1 margin-bottom-0"
           >
             <em>
               Top file downloads over the last month on Department of Interior hostnames.
             </em>
-          </h4>
+          </p>
+          <p
+            class="margin-top-1 margin-bottom-0"
+          >
+            <a
+              aria-label="top-downloads-30-days.csv"
+              href="http://www.example.com/data//top-downloads-30-days.csv"
+            >
+              Download the data
+              <svg
+                aria-hidden="true"
+                class="usa-icon margin-bottom-neg-05 margin-left-05"
+                focusable="false"
+                role="img"
+              >
+                <use
+                  xlink:href="/assets/uswds/img/sprite.svg#file_download"
+                />
+              </svg>
+            </a>
+          </p>
           <figure
             class="top-downloads__bar-chart"
           >
             <div
-              class="data chart__bar-chart text--capitalize margin-top-4"
+              class="data chart__bar-chart text--capitalize margin-top-2"
             />
           </figure>
         </section>
@@ -505,13 +603,33 @@ exports[`SidebarContent when 30 days tab is selected renders a component with to
               </span>
             </h3>
           </div>
-          <h4
-            class="text--normal"
+          <p
+            class="text--normal margin-top-neg-1 margin-bottom-0"
           >
             <em>
               Video play data is unavailable for Department of Interior hostnames.
             </em>
-          </h4>
+          </p>
+          <p
+            class="margin-top-1 margin-bottom-0"
+          >
+            <a
+              aria-label="top-video-plays-30-days.csv"
+              href="http://www.example.com/data//top-video-plays-30-days.csv"
+            >
+              Download the data
+              <svg
+                aria-hidden="true"
+                class="usa-icon margin-bottom-neg-05 margin-left-05"
+                focusable="false"
+                role="img"
+              >
+                <use
+                  xlink:href="/assets/uswds/img/sprite.svg#file_download"
+                />
+              </svg>
+            </a>
+          </p>
           <div />
         </section>
       </div>
@@ -632,9 +750,11 @@ exports[`SidebarContent when 30 minutes tab is selected renders a component with
         role="tabpanel"
       >
         <section
-          class="sidebar__tab__content padding-bottom-1"
+          class="sidebar__tab__content padding-bottom-1 border-bottom-1px border-base-light"
         >
-          <p>
+          <p
+            class="margin-bottom-1"
+          >
             <strong>
               Users
             </strong>
@@ -644,14 +764,34 @@ exports[`SidebarContent when 30 minutes tab is selected renders a component with
             </strong>
              in the last 30 minutes. Hostnames are not currently reported in real-time, so only page title and screen name information is available.
           </p>
+          <p
+            class="margin-top-05 margin-bottom-105"
+          >
+            <a
+              aria-label="top-pages-realtime.csv"
+              href="http://www.example.com/data//top-pages-realtime.csv"
+            >
+              Download the data
+              <svg
+                aria-hidden="true"
+                class="usa-icon margin-bottom-neg-05 margin-left-05"
+                focusable="false"
+                role="img"
+              >
+                <use
+                  xlink:href="/assets/uswds/img/sprite.svg#file_download"
+                />
+              </svg>
+            </a>
+          </p>
           <figure>
             <div
-              class="data chart__bar-chart text--capitalize margin-top-4"
+              class="data chart__bar-chart text--capitalize margin-top-1"
             />
           </figure>
         </section>
         <section
-          class="top-downloads padding-bottom-1"
+          class="top-downloads padding-bottom-1 border-bottom-1px border-base-light"
         >
           <div
             class="top-downloads__headline"
@@ -693,18 +833,38 @@ exports[`SidebarContent when 30 minutes tab is selected renders a component with
               </span>
             </h3>
           </div>
-          <h4
-            class="text--normal"
+          <p
+            class="text--normal margin-top-neg-1 margin-bottom-0"
           >
             <em>
               Top file downloads yesterday on Department of Interior hostnames.
             </em>
-          </h4>
+          </p>
+          <p
+            class="margin-top-1 margin-bottom-0"
+          >
+            <a
+              aria-label="top-downloads-yesterday.csv"
+              href="http://www.example.com/data//top-downloads-yesterday.csv"
+            >
+              Download the data
+              <svg
+                aria-hidden="true"
+                class="usa-icon margin-bottom-neg-05 margin-left-05"
+                focusable="false"
+                role="img"
+              >
+                <use
+                  xlink:href="/assets/uswds/img/sprite.svg#file_download"
+                />
+              </svg>
+            </a>
+          </p>
           <figure
             class="top-downloads__bar-chart"
           >
             <div
-              class="data chart__bar-chart text--capitalize margin-top-4"
+              class="data chart__bar-chart text--capitalize margin-top-2"
             />
           </figure>
         </section>
@@ -751,13 +911,33 @@ exports[`SidebarContent when 30 minutes tab is selected renders a component with
               </span>
             </h3>
           </div>
-          <h4
-            class="text--normal"
+          <p
+            class="text--normal margin-top-neg-1 margin-bottom-0"
           >
             <em>
               Video play data is unavailable for Department of Interior hostnames.
             </em>
-          </h4>
+          </p>
+          <p
+            class="margin-top-1 margin-bottom-0"
+          >
+            <a
+              aria-label="top-video-plays-yesterday.csv"
+              href="http://www.example.com/data//top-video-plays-yesterday.csv"
+            >
+              Download the data
+              <svg
+                aria-hidden="true"
+                class="usa-icon margin-bottom-neg-05 margin-left-05"
+                focusable="false"
+                role="img"
+              >
+                <use
+                  xlink:href="/assets/uswds/img/sprite.svg#file_download"
+                />
+              </svg>
+            </a>
+          </p>
           <div />
         </section>
       </div>

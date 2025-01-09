@@ -29,6 +29,21 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
         </span>
       </span>
     </a>
+    <a
+      aria-label="top-cities-realtime.csv"
+      href="http://www.example.com/data//top-cities-realtime.csv"
+    >
+      <svg
+        aria-hidden="true"
+        class="usa-icon margin-bottom-neg-05 margin-left-05"
+        focusable="false"
+        role="img"
+      >
+        <use
+          xlink:href="/assets/uswds/img/sprite.svg#file_download"
+        />
+      </svg>
+    </a>
   </div>
   <figure
     id="chart_top-cities-realtime"
@@ -37,7 +52,7 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
       class="data chart__bar-chart text--capitalize margin-top-2"
     >
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -50,12 +65,12 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
           2.1%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 2%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -68,12 +83,12 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
           5%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 5%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -86,12 +101,12 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
           6.2%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 6%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -104,12 +119,12 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
           1.6%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 2%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -122,12 +137,12 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
           7.8%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 8%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -140,12 +155,12 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
           0.5%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -158,12 +173,12 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
           2%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 2%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -176,12 +191,12 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
           8.1%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 8%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -194,12 +209,12 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
           4.7%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 5%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -212,12 +227,12 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
           4.8%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 5%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -230,12 +245,12 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
           1%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 1%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -248,12 +263,12 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
           2.6%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 3%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -266,7 +281,7 @@ exports[`TopCitiesRealtime when data is loaded renders a component with data loa
           5.9%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 6%;"
         />
       </div>
@@ -303,6 +318,21 @@ exports[`TopCitiesRealtime when data is not loaded renders a component in loadin
           The city from which user activity originates. Location data may be affected by a user's VPN usage.
         </span>
       </span>
+    </a>
+    <a
+      aria-label="top-cities-realtime.csv"
+      href="http://www.example.com/data//top-cities-realtime.csv"
+    >
+      <svg
+        aria-hidden="true"
+        class="usa-icon margin-bottom-neg-05 margin-left-05"
+        focusable="false"
+        role="img"
+      >
+        <use
+          xlink:href="/assets/uswds/img/sprite.svg#file_download"
+        />
+      </svg>
     </a>
   </div>
   <figure
@@ -343,6 +373,21 @@ exports[`TopCitiesRealtime when data loading has an error renders a component in
           The city from which user activity originates. Location data may be affected by a user's VPN usage.
         </span>
       </span>
+    </a>
+    <a
+      aria-label="top-cities-realtime.csv"
+      href="http://www.example.com/data//top-cities-realtime.csv"
+    >
+      <svg
+        aria-hidden="true"
+        class="usa-icon margin-bottom-neg-05 margin-left-05"
+        focusable="false"
+        role="img"
+      >
+        <use
+          xlink:href="/assets/uswds/img/sprite.svg#file_download"
+        />
+      </svg>
     </a>
   </div>
   <figure

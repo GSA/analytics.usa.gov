@@ -42,70 +42,13 @@
     // Assumes there are 30 items in the top pages charts. Will need adjusted
     // accordingly if the number of chart items changes.
     min-height: 60rem;
-    border-bottom: 1px solid colors.$uswds-light-gray;
-
-    .chart__bar-chart {
-      margin-top: 0;
-    }
-
-    .chart__bar-chart__item__label {
-      color: colors.$dark-gray;
-      height: 2.2rem;
-    }
-
-    .chart__bar-chart__item__value {
-      height: 1.25rem;
-      margin-bottom: 0.45rem;
-      margin-top: -2.2rem;
-      text-align: right;
-      white-space: nowrap;
-    }
   }
 
   .top-downloads {
-    border-bottom: 1px solid colors.$uswds-light-gray;
-
-    &__headline {
-      padding-top: 0;
-    }
-
-    h4 {
-      margin: units(1) 0 units(1) 0;
-    }
-
-    &__bar-chart {
-      padding: 0;
-
-      .chart__bar-chart {
-        margin-top: 0;
-      }
-
-      .chart__bar-chart__item__label {
-        height: units(8);
-        height: 4rem;
-        line-height: 1.6;
-
-        .top-download__page-name {
-          display: block;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          white-space: nowrap;
-        }
-
-        .top-download__page-domain {
-          color: colors.$dark-gray;
-          text-transform: lowercase;
-        }
-
-        .top-download__file-location {
-          text-transform: lowercase;
-        }
-      }
-
-      .chart__bar-chart__item__bar {
-        margin-top: units(2);
-      }
-    }
+    // This prevents "jumping" in the sidebar when chart data is loading.
+    // Assumes there are 30 items in the top pages charts. Will need adjusted
+    // accordingly if the number of chart items changes.
+    min-height: 10rem;
   }
 
   .top-video-plays {
@@ -113,34 +56,5 @@
     // Assumes there are 30 items in the top pages charts. Will need adjusted
     // accordingly if the number of chart items changes.
     min-height: 10rem;
-
-    &__headline {
-      padding-top: 0;
-    }
-
-    h4 {
-      margin: units(1) 0 units(1) 0;
-    }
-
-    .chart__bar-chart {
-      margin-top: 0;
-    }
-
-    .chart__bar-chart__item__label {
-      color: colors.$dark-gray;
-      height: auto;
-      line-height: normal;
-    }
-
-    .chart__bar-chart__item__value {
-      height: auto;
-      margin-top: -1.5rem;
-      text-align: right;
-      white-space: nowrap;
-    }
-
-    .chart__bar-chart__item {
-      margin-top: units(1);
-    }
   }
 }

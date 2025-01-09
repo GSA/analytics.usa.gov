@@ -19,7 +19,8 @@ import Tooltip from "../tooltip/Tooltip";
  * @returns {import('react').ReactElement} The rendered element
  */
 function OperatingSystemsChart({ dataHrefBase }) {
-  const osDataURL = `${dataHrefBase}/os.json`;
+  const osJsonDataURL = `${dataHrefBase}/os.json`;
+  const osCsvDataURL = `${dataHrefBase}/os.csv`;
   const windowsDataURL = `${dataHrefBase}/windows.json`;
   const osRef = useRef(null);
   const windowsRef = useRef(null);
@@ -30,7 +31,7 @@ function OperatingSystemsChart({ dataHrefBase }) {
   useEffect(() => {
     const initOsCharts = async () => {
       if (!osData || !windowsData) {
-        await setOsData(await DataLoader.loadJSON(osDataURL));
+        await setOsData(await DataLoader.loadJSON(osJsonDataURL));
         await setWindowsData(await DataLoader.loadJSON(windowsDataURL));
       } else {
         let chartBuilder = new ChartBuilder();
@@ -68,9 +69,19 @@ function OperatingSystemsChart({ dataHrefBase }) {
             Operating Systems
           </Tooltip>
         </a>
+        <a href={osCsvDataURL} aria-label="os.csv">
+          <svg
+            className="usa-icon margin-bottom-neg-05 margin-left-05"
+            aria-hidden="true"
+            focusable="false"
+            role="img"
+          >
+            <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+          </svg>
+        </a>
       </div>
       <figure id="chart_os" ref={osRef}>
-        <div className="data chart__bar-chart text--capitalize margin-top-4"></div>
+        <div className="data chart__bar-chart text--capitalize margin-top-2"></div>
       </figure>
       <figure
         id="chart_windows"
@@ -78,7 +89,7 @@ function OperatingSystemsChart({ dataHrefBase }) {
         data-scale-to-parent="true"
         ref={windowsRef}
       >
-        <div className="data chart__bar-chart text--capitalize margin-top-4"></div>
+        <div className="data chart__bar-chart text--capitalize"></div>
       </figure>
     </div>
   );

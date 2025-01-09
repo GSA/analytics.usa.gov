@@ -18,14 +18,15 @@ import Tooltip from "../tooltip/Tooltip";
  * @returns {import('react').ReactElement} The rendered element
  */
 function TopLanguagesHistorical({ dataHrefBase }) {
-  const dataURL = `${dataHrefBase}/language.json`;
+  const jsonDataURL = `${dataHrefBase}/language.json`;
+  const csvDataURL = `${dataHrefBase}/language.csv`;
   const ref = useRef(null);
   const [languageData, setLanguageData] = useState(null);
 
   useEffect(() => {
     const initLanguagesChart = async () => {
       if (!languageData) {
-        const data = await DataLoader.loadJSON(dataURL);
+        const data = await DataLoader.loadJSON(jsonDataURL);
         await setLanguageData(data);
       } else {
         const chartBuilder = new ChartBuilder();
@@ -78,6 +79,16 @@ function TopLanguagesHistorical({ dataHrefBase }) {
           >
             Languages
           </Tooltip>
+        </a>
+        <a href={csvDataURL} aria-label="language.csv">
+          <svg
+            className="usa-icon margin-bottom-neg-05 margin-left-05"
+            aria-hidden="true"
+            focusable="false"
+            role="img"
+          >
+            <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+          </svg>
         </a>
       </div>
       <figure id="chart_top-languages" ref={ref}>

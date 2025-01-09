@@ -17,14 +17,15 @@ import Tooltip from "../tooltip/Tooltip";
  * @returns {import('react').ReactElement} The rendered element
  */
 function BrowsersChart({ dataHrefBase }) {
-  const dataURL = `${dataHrefBase}/browsers.json`;
+  const jsonDataURL = `${dataHrefBase}/browsers.json`;
+  const csvDataURL = `${dataHrefBase}/browsers.csv`;
   const ref = useRef(null);
   const [browserData, setBrowserData] = useState(null);
 
   useEffect(() => {
     const initBrowsersChart = async () => {
       if (!browserData) {
-        const data = await DataLoader.loadJSON(dataURL);
+        const data = await DataLoader.loadJSON(jsonDataURL);
         await setBrowserData(data);
       } else {
         const chartBuilder = new ChartBuilder();
@@ -49,9 +50,19 @@ function BrowsersChart({ dataHrefBase }) {
             Web Browsers
           </Tooltip>
         </a>
+        <a href={csvDataURL} aria-label="browsers.csv">
+          <svg
+            className="usa-icon margin-bottom-neg-05 margin-left-05"
+            aria-hidden="true"
+            focusable="false"
+            role="img"
+          >
+            <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+          </svg>
+        </a>
       </div>
       <figure id="chart_browsers" ref={ref}>
-        <div className="data chart__bar-chart text--capitalize margin-top-4"></div>
+        <div className="data chart__bar-chart text--capitalize margin-top-2"></div>
       </figure>
     </>
   );

@@ -223,7 +223,6 @@ function DashboardContent({ dataURL, dataPrefix, agency }) {
                 </AccordionHeader>
                 <AccordionContent id="30-day-sessions-users">
                   <article className="min-height-small padding-top-1 padding-bottom-2 section">
-                    <h3 className="chart__title margin-0">Daily Sessions</h3>
                     <Sessions30Days dataHrefBase={dataHrefBase} />
                   </article>
 

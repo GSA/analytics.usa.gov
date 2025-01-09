@@ -36,13 +36,14 @@ function TopDownloadsAndVideoPlays({
   const numberOfTopDownloadsToDisplay = 10;
   const numberOfTopVideoPlaysToDisplay = 10;
 
-  const videoDataURL = `${dataHrefBase}/${videoPlaysReportFileName}`;
+  const jsonVideoDataURL = `${dataHrefBase}/${videoPlaysReportFileName}.json`;
+  const csvVideoDataURL = `${dataHrefBase}/${videoPlaysReportFileName}.csv`;
   const [videoPlayData, setVideoPlayData] = useState(null);
 
   useEffect(() => {
     const getVideoPlayData = async () => {
       if (!videoPlayData) {
-        const data = await DataLoader.loadJSON(videoDataURL);
+        const data = await DataLoader.loadJSON(jsonVideoDataURL);
         await setVideoPlayData(data);
       }
     };
@@ -66,7 +67,7 @@ function TopDownloadsAndVideoPlays({
 
   return (
     <>
-      <section className="top-downloads padding-bottom-1">
+      <section className="top-downloads padding-bottom-1 border-bottom-1px border-base-light">
         <div className="top-downloads__headline">
           <h3>
             <a href="/definitions#report_top_downloads">
@@ -87,14 +88,30 @@ function TopDownloadsAndVideoPlays({
             </Tooltip>
           </h3>
         </div>
-        <h4 className="text--normal">
+        <p className="text--normal margin-top-neg-1 margin-bottom-0">
           <em>
             Top file downloads {timeIntervalDescription} on {agency} hostnames.
           </em>
-        </h4>
+        </p>
+        <p className="margin-top-1 margin-bottom-0">
+          <a
+            href={`${dataHrefBase}/${downloadsReportFileName}.csv`}
+            aria-label={`${downloadsReportFileName}.csv`}
+          >
+            Download the data
+            <svg
+              className="usa-icon margin-bottom-neg-05 margin-left-05"
+              aria-hidden="true"
+              focusable="false"
+              role="img"
+            >
+              <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+            </svg>
+          </a>
+        </p>
         <TopDownloads
           dataHrefBase={dataHrefBase}
-          reportFileName={downloadsReportFileName}
+          reportFileName={`${downloadsReportFileName}.json`}
           numberOfListingsToDisplay={__topDownloadsCount()}
         />
       </section>
@@ -121,13 +138,29 @@ function TopDownloadsAndVideoPlays({
             </Tooltip>
           </h3>
         </div>
-        <h4 className="text--normal">
+        <p className="text--normal margin-top-neg-1 margin-bottom-0">
           <em>
             {__shouldDisplayVideoPlays()
               ? `Top videos played ${timeIntervalDescription} on ${agency} hostnames.`
               : `Video play data is unavailable for ${agency} hostnames.`}
           </em>
-        </h4>
+        </p>
+        <p className="margin-top-1 margin-bottom-0">
+          <a
+            href={csvVideoDataURL}
+            aria-label={`${videoPlaysReportFileName}.csv`}
+          >
+            Download the data
+            <svg
+              className="usa-icon margin-bottom-neg-05 margin-left-05"
+              aria-hidden="true"
+              focusable="false"
+              role="img"
+            >
+              <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+            </svg>
+          </a>
+        </p>
         {__shouldDisplayVideoPlays() ? (
           <TopVideoPlays
             videoPlayData={videoPlayData}

@@ -32,6 +32,21 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
           </span>
         </span>
       </a>
+      <a
+        aria-label="top-countries-realtime.csv"
+        href="http://www.example.com/data//top-countries-realtime.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
     </div>
     <figure
       id="chart_us"
@@ -40,7 +55,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
         class="data chart__bar-chart text--capitalize margin-top-2"
       >
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -53,7 +68,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
             100%
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 100%;"
           />
           <figure
@@ -61,10 +76,10 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
             id="chart_countries"
           >
             <div
-              class="data chart__bar-chart text--capitalize margin-top-4"
+              class="data chart__bar-chart text--capitalize"
             >
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="9.698050008324927"
               >
                 <div
@@ -78,12 +93,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   9.7%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 10%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="9.323918004368139"
               >
                 <div
@@ -97,12 +112,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   9.3%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 9%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="8.973291676052614"
               >
                 <div
@@ -116,12 +131,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   9%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 9%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="7.841101632665054"
               >
                 <div
@@ -135,12 +150,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   7.8%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 8%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="7.367070507232892"
               >
                 <div
@@ -154,12 +169,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   7.4%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 7%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="7.112425687785863"
               >
                 <div
@@ -173,12 +188,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   7.1%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 7%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="6.5492688755472415"
               >
                 <div
@@ -192,12 +207,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   6.5%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 7%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="6.335758988472424"
               >
                 <div
@@ -211,12 +226,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   6.3%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 6%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="5.262333134188026"
               >
                 <div
@@ -230,12 +245,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   5.3%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 5%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="5.183980882050478"
               >
                 <div
@@ -249,12 +264,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   5.2%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 5%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="5.117381467733563"
               >
                 <div
@@ -268,12 +283,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   5.1%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 5%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="5.101711017306053"
               >
                 <div
@@ -287,12 +302,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   5.1%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 5%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="4.595359587867154"
               >
                 <div
@@ -306,12 +321,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   4.6%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 5%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="4.460201952929885"
               >
                 <div
@@ -325,12 +340,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   4.5%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 4%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="7.078146577475687"
               >
                 <div
@@ -344,7 +359,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
                   7.1%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 7%;"
                 />
               </div>
@@ -358,7 +373,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name "" exi
       id="chart_us_and_territories"
     >
       <div
-        class="data chart__bar-chart text--capitalize margin-top-4"
+        class="data chart__bar-chart text--capitalize"
       />
     </figure>
   </div>
@@ -397,6 +412,21 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
           </span>
         </span>
       </a>
+      <a
+        aria-label="top-countries-realtime.csv"
+        href="http://www.example.com/data//top-countries-realtime.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
     </div>
     <figure
       id="chart_us"
@@ -405,7 +435,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
         class="data chart__bar-chart text--capitalize margin-top-2"
       >
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -418,7 +448,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
             100%
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 100%;"
           />
           <figure
@@ -426,10 +456,10 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
             id="chart_countries"
           >
             <div
-              class="data chart__bar-chart text--capitalize margin-top-4"
+              class="data chart__bar-chart text--capitalize"
             >
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="10.14626670573122"
               >
                 <div
@@ -443,12 +473,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   10.1%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 10%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="9.323657343760566"
               >
                 <div
@@ -462,12 +492,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   9.3%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 9%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="9.039688084559735"
               >
                 <div
@@ -481,12 +511,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   9%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 9%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="7.4451781569042845"
               >
                 <div
@@ -500,12 +530,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   7.4%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 7%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="7.1848730026368575"
               >
                 <div
@@ -519,12 +549,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   7.2%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 7%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="7.0642987536904736"
               >
                 <div
@@ -538,12 +568,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   7.1%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 7%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="6.18421942259584"
               >
                 <div
@@ -557,12 +587,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   6.2%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 6%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="5.919406819769669"
               >
                 <div
@@ -576,12 +606,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   5.9%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 6%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="5.314281850758378"
               >
                 <div
@@ -595,12 +625,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   5.3%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 5%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="4.988618692389173"
               >
                 <div
@@ -614,12 +644,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   5%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 5%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="4.845507200649073"
               >
                 <div
@@ -633,12 +663,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   4.8%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 5%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="4.566045390006987"
               >
                 <div
@@ -652,12 +682,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   4.6%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 5%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="4.160375019720088"
               >
                 <div
@@ -671,12 +701,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   4.2%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 4%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="3.804286583579365"
               >
                 <div
@@ -690,12 +720,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   3.8%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 4%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="10.013296973248293"
               >
                 <div
@@ -709,7 +739,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
                   10%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 10%;"
                 />
               </div>
@@ -723,7 +753,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name null e
       id="chart_us_and_territories"
     >
       <div
-        class="data chart__bar-chart text--capitalize margin-top-4"
+        class="data chart__bar-chart text--capitalize"
       />
     </figure>
   </div>
@@ -762,6 +792,21 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
           </span>
         </span>
       </a>
+      <a
+        aria-label="top-countries-realtime.csv"
+        href="http://www.example.com/data//top-countries-realtime.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
     </div>
     <figure
       id="chart_us"
@@ -770,7 +815,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
         class="data chart__bar-chart text--capitalize margin-top-2"
       >
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -783,7 +828,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
             88.7%
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 89%;"
           />
           <figure
@@ -791,10 +836,10 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
             id="chart_countries"
           >
             <div
-              class="data chart__bar-chart text--capitalize margin-top-4"
+              class="data chart__bar-chart text--capitalize"
             >
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="9.354646504078405"
               >
                 <div
@@ -808,12 +853,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   9.4%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 9%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="9.221096751659099"
               >
                 <div
@@ -827,12 +872,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   9.2%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 9%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="7.903063425859341"
               >
                 <div
@@ -846,12 +891,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   7.9%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 8%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="7.729448747714245"
               >
                 <div
@@ -865,12 +910,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   7.7%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 8%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="7.538369871175854"
               >
                 <div
@@ -884,12 +929,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   7.5%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 8%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="6.919931786895687"
               >
                 <div
@@ -903,12 +948,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   6.9%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 7%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="6.572702430605494"
               >
                 <div
@@ -922,12 +967,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   6.6%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 7%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="6.399087752460398"
               >
                 <div
@@ -941,12 +986,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   6.4%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 6%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="5.74263935403012"
               >
                 <div
@@ -960,12 +1005,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   5.7%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 6%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="5.399519220891291"
               >
                 <div
@@ -979,12 +1024,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   5.4%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 5%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="4.113332374514598"
               >
                 <div
@@ -998,12 +1043,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   4.1%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 4%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="3.5205769349304514"
               >
                 <div
@@ -1017,12 +1062,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   3.5%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 4%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="2.0114647325923034"
               >
                 <div
@@ -1036,12 +1081,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   2%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 2%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="1.8820242033243613"
               >
                 <div
@@ -1055,12 +1100,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   1.9%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 2%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="4.434879086108771"
               >
                 <div
@@ -1074,7 +1119,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   4.4%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 4%;"
                 />
               </div>
@@ -1082,7 +1127,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
           </figure>
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -1095,7 +1140,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
             11.3%
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 11%;"
           />
           <figure
@@ -1103,10 +1148,10 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
             id="chart_us_and_territories"
           >
             <div
-              class="data chart__bar-chart text--capitalize margin-top-4"
+              class="data chart__bar-chart text--capitalize"
             >
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="10.180600357502415"
               >
                 <div
@@ -1120,12 +1165,12 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   10.2%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 10%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="1.0766164656571675"
               >
                 <div
@@ -1139,7 +1184,7 @@ exports[`TopCountriesRealtime when data is loaded and a country with name undefi
                   1.1%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 1%;"
                 />
               </div>
@@ -1184,6 +1229,21 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
           </span>
         </span>
       </a>
+      <a
+        aria-label="top-countries-realtime.csv"
+        href="http://www.example.com/data//top-countries-realtime.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
     </div>
     <figure
       id="chart_us"
@@ -1192,7 +1252,7 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
         class="data chart__bar-chart text--capitalize margin-top-2"
       >
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -1205,7 +1265,7 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
             93.5%
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 94%;"
           />
           <figure
@@ -1213,10 +1273,10 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
             id="chart_countries"
           >
             <div
-              class="data chart__bar-chart text--capitalize margin-top-4"
+              class="data chart__bar-chart text--capitalize"
             >
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="10.50710035323961"
               >
                 <div
@@ -1230,12 +1290,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   10.5%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 11%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="8.976790498091558"
               >
                 <div
@@ -1249,12 +1309,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   9%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 9%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="8.840473198833598"
               >
                 <div
@@ -1268,12 +1328,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   8.8%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 9%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="8.047462127498163"
               >
                 <div
@@ -1287,12 +1347,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   8%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 8%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="7.768900689884071"
               >
                 <div
@@ -1306,12 +1366,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   7.8%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 8%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="6.73644531898248"
               >
                 <div
@@ -1325,12 +1385,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   6.7%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 7%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="6.687845238377468"
               >
                 <div
@@ -1344,12 +1404,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   6.7%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 7%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="6.377278869633248"
               >
                 <div
@@ -1363,12 +1423,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   6.4%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 6%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="5.290296579028472"
               >
                 <div
@@ -1382,12 +1442,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   5.3%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 5%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="4.305255920912259"
               >
                 <div
@@ -1401,12 +1461,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   4.3%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 4%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="4.295772978355183"
               >
                 <div
@@ -1420,12 +1480,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   4.3%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 4%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="4.174865460752471"
               >
                 <div
@@ -1439,12 +1499,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   4.2%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 4%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="3.925938218629241"
               >
                 <div
@@ -1458,12 +1518,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   3.9%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 4%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="3.2135321590289463"
               >
                 <div
@@ -1477,12 +1537,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   3.2%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 3%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="4.387046300467035"
               >
                 <div
@@ -1496,7 +1556,7 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   4.4%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 4%;"
                 />
               </div>
@@ -1504,7 +1564,7 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
           </figure>
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -1517,7 +1577,7 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
             6.5%
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 6%;"
           />
           <figure
@@ -1525,10 +1585,10 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
             id="chart_us_and_territories"
           >
             <div
-              class="data chart__bar-chart text--capitalize margin-top-4"
+              class="data chart__bar-chart text--capitalize"
             >
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="4.750954221094806"
               >
                 <div
@@ -1542,12 +1602,12 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   4.8%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 5%;"
                 />
               </div>
               <div
-                class="chart__bar-chart__item"
+                class="chart__bar-chart__item margin-bottom-2"
                 data-share="1.7140418671913893"
               >
                 <div
@@ -1561,7 +1621,7 @@ exports[`TopCountriesRealtime when data is loaded and all country names are vali
                   1.7%
                 </div>
                 <div
-                  class="chart__bar-chart__item__bar bg-palette-color-5"
+                  class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
                   style="width: 2%;"
                 />
               </div>
@@ -1606,6 +1666,21 @@ exports[`TopCountriesRealtime when data is not loaded renders a component in loa
           </span>
         </span>
       </a>
+      <a
+        aria-label="top-countries-realtime.csv"
+        href="http://www.example.com/data//top-countries-realtime.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
     </div>
     <figure
       id="chart_us"
@@ -1619,7 +1694,7 @@ exports[`TopCountriesRealtime when data is not loaded renders a component in loa
       id="chart_us_and_territories"
     >
       <div
-        class="data chart__bar-chart text--capitalize margin-top-4"
+        class="data chart__bar-chart text--capitalize"
       />
     </figure>
     <figure
@@ -1627,7 +1702,7 @@ exports[`TopCountriesRealtime when data is not loaded renders a component in loa
       id="chart_countries"
     >
       <div
-        class="data chart__bar-chart text--capitalize margin-top-4"
+        class="data chart__bar-chart text--capitalize"
       />
     </figure>
   </div>
@@ -1666,6 +1741,21 @@ exports[`TopCountriesRealtime when data loading has an error renders a component
           </span>
         </span>
       </a>
+      <a
+        aria-label="top-countries-realtime.csv"
+        href="http://www.example.com/data//top-countries-realtime.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
     </div>
     <figure
       id="chart_us"
@@ -1679,7 +1769,7 @@ exports[`TopCountriesRealtime when data loading has an error renders a component
       id="chart_us_and_territories"
     >
       <div
-        class="data chart__bar-chart text--capitalize margin-top-4"
+        class="data chart__bar-chart text--capitalize"
       />
     </figure>
     <figure
@@ -1687,7 +1777,7 @@ exports[`TopCountriesRealtime when data loading has an error renders a component
       id="chart_countries"
     >
       <div
-        class="data chart__bar-chart text--capitalize margin-top-4"
+        class="data chart__bar-chart text--capitalize"
       />
     </figure>
   </div>
