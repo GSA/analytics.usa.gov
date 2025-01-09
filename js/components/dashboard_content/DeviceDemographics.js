@@ -33,6 +33,19 @@ function DeviceDemographics({ dataHrefBase }) {
               Top Screen Resolutions
             </Tooltip>
           </a>
+          <a
+            href={`${dataHrefBase}/screen-resolution-30-days.json`}
+            aria-label="screen-resolution-30-days.csv"
+          >
+            <svg
+              className="usa-icon margin-bottom-neg-05 margin-left-05"
+              aria-hidden="true"
+              focusable="false"
+              role="img"
+            >
+              <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+            </svg>
+          </a>
         </div>
         <div className="text--capitalize">
           <ConsolidatedBarChart

@@ -81,7 +81,7 @@ function TopPagesRealtime({
 
   return (
     <figure ref={ref}>
-      <div className="data chart__bar-chart text--capitalize margin-top-4"></div>
+      <div className="data chart__bar-chart text--capitalize margin-top-1"></div>
     </figure>
   );
 }

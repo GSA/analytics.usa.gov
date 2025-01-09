@@ -36,12 +36,27 @@ exports[`DeviceDemographics renders 1`] = `
             </span>
           </span>
         </a>
+        <a
+          aria-label="devices.csv"
+          href="http://www.example.com/data//devices.csv"
+        >
+          <svg
+            aria-hidden="true"
+            class="usa-icon margin-bottom-neg-05 margin-left-05"
+            focusable="false"
+            role="img"
+          >
+            <use
+              xlink:href="/assets/uswds/img/sprite.svg#file_download"
+            />
+          </svg>
+        </a>
       </div>
       <figure
         id="chart_device_types"
       >
         <div
-          class="data chart__bar-chart text--capitalize margin-top-4"
+          class="data chart__bar-chart text--capitalize margin-top-2"
         />
       </figure>
       <div
@@ -71,6 +86,21 @@ exports[`DeviceDemographics renders 1`] = `
             </span>
           </span>
         </a>
+        <a
+          aria-label="screen-resolution-30-days.csv"
+          href="http://www.example.com/data//screen-resolution-30-days.json"
+        >
+          <svg
+            aria-hidden="true"
+            class="usa-icon margin-bottom-neg-05 margin-left-05"
+            focusable="false"
+            role="img"
+          >
+            <use
+              xlink:href="/assets/uswds/img/sprite.svg#file_download"
+            />
+          </svg>
+        </a>
       </div>
       <div
         class="text--capitalize"
@@ -79,7 +109,7 @@ exports[`DeviceDemographics renders 1`] = `
           id="chart_screen_resolution"
         >
           <div
-            class="data chart__bar-chart margin-top-4"
+            class="data chart__bar-chart margin-top-2"
           />
         </figure>
       </div>
@@ -115,12 +145,27 @@ exports[`DeviceDemographics renders 1`] = `
             </span>
           </span>
         </a>
+        <a
+          aria-label="browsers.csv"
+          href="http://www.example.com/data//browsers.csv"
+        >
+          <svg
+            aria-hidden="true"
+            class="usa-icon margin-bottom-neg-05 margin-left-05"
+            focusable="false"
+            role="img"
+          >
+            <use
+              xlink:href="/assets/uswds/img/sprite.svg#file_download"
+            />
+          </svg>
+        </a>
       </div>
       <figure
         id="chart_browsers"
       >
         <div
-          class="data chart__bar-chart text--capitalize margin-top-4"
+          class="data chart__bar-chart text--capitalize margin-top-2"
         />
       </figure>
     </div>
@@ -156,12 +201,27 @@ exports[`DeviceDemographics renders 1`] = `
               </span>
             </span>
           </a>
+          <a
+            aria-label="os.csv"
+            href="http://www.example.com/data//os.csv"
+          >
+            <svg
+              aria-hidden="true"
+              class="usa-icon margin-bottom-neg-05 margin-left-05"
+              focusable="false"
+              role="img"
+            >
+              <use
+                xlink:href="/assets/uswds/img/sprite.svg#file_download"
+              />
+            </svg>
+          </a>
         </div>
         <figure
           id="chart_os"
         >
           <div
-            class="data chart__bar-chart text--capitalize margin-top-4"
+            class="data chart__bar-chart text--capitalize margin-top-2"
           />
         </figure>
         <figure
@@ -170,7 +230,7 @@ exports[`DeviceDemographics renders 1`] = `
           id="chart_windows"
         >
           <div
-            class="data chart__bar-chart text--capitalize margin-top-4"
+            class="data chart__bar-chart text--capitalize"
           />
         </figure>
       </div>

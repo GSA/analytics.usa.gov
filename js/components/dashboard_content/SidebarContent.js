@@ -84,12 +84,28 @@ function SidebarContent({ dataHrefBase, agency }) {
         </TabList>
 
         <TabPanel>
-          <section className="sidebar__tab__content padding-bottom-1">
-            <p>
+          <section className="sidebar__tab__content padding-bottom-1 border-bottom-1px border-base-light">
+            <p className="margin-bottom-1">
               <strong>Users</strong> on a{" "}
               <strong>single, specific page or app screen</strong> in the last
               30 minutes. Hostnames are not currently reported in real-time, so
               only page title and screen name information is available.
+            </p>
+            <p className="margin-top-05 margin-bottom-105">
+              <a
+                href={`${dataHrefBase}/top-pages-realtime.csv`}
+                aria-label="top-pages-realtime.csv"
+              >
+                Download the data
+                <svg
+                  className="usa-icon margin-bottom-neg-05 margin-left-05"
+                  aria-hidden="true"
+                  focusable="false"
+                  role="img"
+                >
+                  <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+                </svg>
+              </a>
             </p>
             <TopPagesRealtime
               dataHrefBase={dataHrefBase}
@@ -101,18 +117,34 @@ function SidebarContent({ dataHrefBase, agency }) {
           <TopDownloadsAndVideoPlays
             dataHrefBase={dataHrefBase}
             agency={agency}
-            downloadsReportFileName="top-downloads-yesterday.json"
-            videoPlaysReportFileName="top-video-plays-yesterday.json"
+            downloadsReportFileName="top-downloads-yesterday"
+            videoPlaysReportFileName="top-video-plays-yesterday"
             timeIntervalHeader="Yesterday"
             timeIntervalDescription="yesterday"
           />
         </TabPanel>
         <TabPanel>
-          <section className="sidebar__tab__content">
-            <p>
+          <section className="sidebar__tab__content padding-bottom-1 border-bottom-1px border-base-light">
+            <p className="margin-bottom-1">
               Sessions over the last week on <strong>hostnames</strong>,
               including traffic to all web pages and app screens within that
               hostname.
+            </p>
+            <p className="margin-top-05 margin-bottom-105">
+              <a
+                href={`${dataHrefBase}/top-domains-7-days.csv`}
+                aria-label="top-domains-7-days.csv"
+              >
+                Download the data
+                <svg
+                  className="usa-icon margin-bottom-neg-05 margin-left-05"
+                  aria-hidden="true"
+                  focusable="false"
+                  role="img"
+                >
+                  <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+                </svg>
+              </a>
             </p>
             <TopPagesHistorical
               dataHrefBase={dataHrefBase}
@@ -123,22 +155,34 @@ function SidebarContent({ dataHrefBase, agency }) {
           <TopDownloadsAndVideoPlays
             dataHrefBase={dataHrefBase}
             agency={agency}
-            downloadsReportFileName="top-downloads-7-days.json"
-            videoPlaysReportFileName="top-video-plays-7-days.json"
+            downloadsReportFileName="top-downloads-7-days"
+            videoPlaysReportFileName="top-video-plays-7-days"
             timeIntervalHeader="Last 7 Days"
             timeIntervalDescription="over the last week"
           />
         </TabPanel>
         <TabPanel>
-          <section className="sidebar__tab__content">
-            <p>
+          <section className="sidebar__tab__content padding-bottom-1 border-bottom-1px border-base-light">
+            <p className="margin-bottom-1">
               Sessions over the last month on <strong>hostnames</strong>,
               including traffic to all web pages and app screens within that
-              hostname.{" "}
-              <a href={dataHrefBase + "/top-100000-domains-30-days.csv"}>
-                Download the full dataset
+              hostname.
+            </p>
+            <p className="margin-top-05 margin-bottom-105">
+              <a
+                href={`${dataHrefBase}/top-100000-domains-30-days.csv`}
+                aria-label="top-100000-domains-30-days.csv"
+              >
+                Download the data
+                <svg
+                  className="usa-icon margin-bottom-neg-05 margin-left-05"
+                  aria-hidden="true"
+                  focusable="false"
+                  role="img"
+                >
+                  <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+                </svg>
               </a>
-              .
             </p>
             <TopPagesHistorical
               dataHrefBase={dataHrefBase}
@@ -149,8 +193,8 @@ function SidebarContent({ dataHrefBase, agency }) {
           <TopDownloadsAndVideoPlays
             dataHrefBase={dataHrefBase}
             agency={agency}
-            downloadsReportFileName="top-downloads-30-days.json"
-            videoPlaysReportFileName="top-video-plays-30-days.json"
+            downloadsReportFileName="top-downloads-30-days"
+            videoPlaysReportFileName="top-video-plays-30-days"
             timeIntervalHeader="Last 30 Days"
             timeIntervalDescription="over the last month"
           />

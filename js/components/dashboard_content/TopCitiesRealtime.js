@@ -20,19 +20,20 @@ import Tooltip from "../tooltip/Tooltip";
  * @returns {import('react').ReactElement} The rendered element
  */
 function TopCitiesRealtime({ dataHrefBase, refreshSeconds }) {
-  const dataURL = `${dataHrefBase}/top-cities-realtime.json`;
+  const jsonDataURL = `${dataHrefBase}/top-cities-realtime.json`;
+  const csvDataURL = `${dataHrefBase}/top-cities-realtime.csv`;
   const ref = useRef(null);
   const [realtimeCitiesData, setRealtimeCitiesData] = useState(null);
 
   useEffect(() => {
     const initRealtimeCitiesChart = async () => {
       if (!realtimeCitiesData) {
-        const data = await DataLoader.loadJSON(dataURL);
+        const data = await DataLoader.loadJSON(jsonDataURL);
         await setRealtimeCitiesData(data);
         // Refresh data every interval. useEffect will run and update the chart
         // when the state is changed.
         setInterval(() => {
-          DataLoader.loadJSON(dataURL).then((data) => {
+          DataLoader.loadJSON(jsonDataURL).then((data) => {
             setRealtimeCitiesData(data);
           });
         }, refreshSeconds * 1000);
@@ -69,6 +70,16 @@ function TopCitiesRealtime({ dataHrefBase, refreshSeconds }) {
           >
             Cities
           </Tooltip>
+        </a>
+        <a href={csvDataURL} aria-label="top-cities-realtime.csv">
+          <svg
+            className="usa-icon margin-bottom-neg-05 margin-left-05"
+            aria-hidden="true"
+            focusable="false"
+            role="img"
+          >
+            <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+          </svg>
         </a>
       </div>
       <figure id="chart_top-cities-realtime" ref={ref}>

@@ -6,7 +6,7 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key does not 
     id="chart_browser"
   >
     <div
-      class="data chart__bar-chart margin-top-4"
+      class="data chart__bar-chart margin-top-2"
     />
   </figure>
 </DocumentFragment>
@@ -18,10 +18,10 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
     id="chart_browser"
   >
     <div
-      class="data chart__bar-chart margin-top-4"
+      class="data chart__bar-chart margin-top-2"
     >
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -34,12 +34,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           48.5%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 49%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -52,12 +52,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           35.7%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 36%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -70,12 +70,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           8.8%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 9%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -88,12 +88,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           1.9%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 2%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -106,12 +106,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           1.9%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 2%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -124,12 +124,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           1.4%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 1%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -142,12 +142,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           1%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 1%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -160,12 +160,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           0.2%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -178,12 +178,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           0.1%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -196,7 +196,7 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           0.4%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
@@ -211,10 +211,10 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
     id="chart_browser"
   >
     <div
-      class="data chart__bar-chart margin-top-4"
+      class="data chart__bar-chart margin-top-2"
     >
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -227,12 +227,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           48.7%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 49%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -245,12 +245,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           35.8%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 36%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -263,12 +263,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           8.8%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 9%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -281,12 +281,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           1.9%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 2%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -299,12 +299,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           1.9%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 2%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -317,12 +317,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           1.4%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 1%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -335,12 +335,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           1%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 1%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -353,12 +353,12 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           0.2%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -371,7 +371,7 @@ exports[`ConsolidatedBarChart when data is loaded and the expected key exists in
           0.1%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
@@ -386,7 +386,7 @@ exports[`ConsolidatedBarChart when data is not loaded renders a component in loa
     id="chart_browser"
   >
     <div
-      class="data chart__bar-chart margin-top-4"
+      class="data chart__bar-chart margin-top-2"
     />
   </figure>
 </DocumentFragment>
@@ -398,7 +398,7 @@ exports[`ConsolidatedBarChart when data loading has an error renders a component
     id="chart_browser"
   >
     <div
-      class="data chart__bar-chart margin-top-4"
+      class="data chart__bar-chart margin-top-2"
     />
   </figure>
 </DocumentFragment>

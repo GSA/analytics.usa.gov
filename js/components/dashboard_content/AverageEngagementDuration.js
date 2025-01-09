@@ -19,14 +19,15 @@ import Tooltip from "../tooltip/Tooltip";
  * @returns {import('react').ReactElement} The rendered element
  */
 function AverageEngagementDuration({ dataHrefBase }) {
-  const dataURL = `${dataHrefBase}/engagement-duration-30-days.json`;
+  const jsonDataURL = `${dataHrefBase}/engagement-duration-30-days.json`;
+  const csvDataURL = `${dataHrefBase}/engagement-duration-30-days.csv`;
   const ref = useRef(null);
   const [engagementDurationData, setEngagementDurationData] = useState(null);
 
   useEffect(() => {
     const initEngagementDurationsChart = async () => {
       if (!engagementDurationData) {
-        const data = await DataLoader.loadJSON(dataURL);
+        const data = await DataLoader.loadJSON(jsonDataURL);
         await setEngagementDurationData(data);
       } else {
         const chartBuilder = new ChartBuilder();
@@ -60,6 +61,16 @@ function AverageEngagementDuration({ dataHrefBase }) {
         >
           Average Engagement Time Per Session
         </Tooltip>
+      </a>
+      <a href={csvDataURL} aria-label="engagement-duration-30-days.csv">
+        <svg
+          className="usa-icon margin-bottom-neg-05 margin-left-05"
+          aria-hidden="true"
+          focusable="false"
+          role="img"
+        >
+          <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+        </svg>
       </a>
       <div ref={ref}>
         <div className="data chart__rate padding-top-05"></div>

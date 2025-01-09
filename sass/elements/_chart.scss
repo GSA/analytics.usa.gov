@@ -18,7 +18,6 @@
   @include clearfix;
 
   font-size: 1.25rem;
-  margin: 0 0 units(2);
   overflow: hidden;
   position: relative;
 }
@@ -44,8 +43,6 @@
 }
 
 .chart__bar-chart__item__label {
-  height: 2.2rem;
-
   a {
     text-decoration: none;
   }
@@ -56,9 +53,7 @@
 }
 
 .chart__bar-chart__item__value {
-  height: 1.25rem;
-  margin-bottom: 0.45rem;
-  margin-top: -2.2rem;
+  margin-top: -1.9rem;
   text-align: right;
   white-space: nowrap;
 }
@@ -66,12 +61,16 @@
 .chart__bar-chart__nested {
   .chart__bar-chart {
     font-size: 80%;
-    margin: units(1) 0;
+    margin: units("05") 0;
   }
 
   .chart__bar-chart__item {
     margin-bottom: 0;
     margin-left: units(4);
+  }
+
+  .chart__bar-chart__item__label {
+    height: 1.6rem;
   }
 
   .chart__bar-chart__item__bar {

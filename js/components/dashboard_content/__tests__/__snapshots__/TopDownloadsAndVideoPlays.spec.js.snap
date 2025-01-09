@@ -3,7 +3,7 @@
 exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has > 2 results renders a component with data loaded 1`] = `
 <DocumentFragment>
   <section
-    class="top-downloads padding-bottom-1"
+    class="top-downloads padding-bottom-1 border-bottom-1px border-base-light"
   >
     <div
       class="top-downloads__headline"
@@ -45,77 +45,109 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
         </span>
       </h3>
     </div>
-    <h4
-      class="text--normal"
+    <p
+      class="text--normal margin-top-neg-1 margin-bottom-0"
     >
       <em>
         Top file downloads over the last week on NASA hostnames.
       </em>
-    </h4>
+    </p>
+    <p
+      class="margin-top-1 margin-bottom-0"
+    >
+      <a
+        aria-label="download-foobar.json.csv"
+        href="http://www.example.com/data//download-foobar.json.csv"
+      >
+        Download the data
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
+    </p>
     <figure
       class="top-downloads__bar-chart"
     >
       <div
-        class="data chart__bar-chart text--capitalize margin-top-4"
+        class="data chart__bar-chart text--capitalize margin-top-2"
       >
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://frayed-bulb.com"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://frayed-bulb.com"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       transform user-centric paradigms
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     frayed-bulb.com
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://whole-youth.info"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://whole-youth.info"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -123,68 +155,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             2,002
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 21%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://unfit-tune.info"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://unfit-tune.info"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       scale holistic relationships
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     unfit-tune.info
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://voluminous-consent.info"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://voluminous-consent.info"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -192,68 +236,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             9,889
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 100%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://major-innocence.name"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://major-innocence.name"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       synergize global bandwidth
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     major-innocence.name
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://official-descent.name"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://official-descent.name"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -261,68 +317,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             3,671
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 38%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://favorite-dune.org"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://favorite-dune.org"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       productize scalable niches
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     favorite-dune.org
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://forthright-pause.org"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://forthright-pause.org"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -330,68 +398,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             3,487
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 36%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://criminal-futon.biz"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://criminal-futon.biz"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       synthesize collaborative blockchains
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     criminal-futon.biz
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://kaleidoscopic-oatmeal.info"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://kaleidoscopic-oatmeal.info"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -399,68 +479,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             7,353
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 75%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://stark-iris.org"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://stark-iris.org"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       cultivate global functionalities
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     stark-iris.org
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://plain-citrus.org"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://plain-citrus.org"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -468,68 +560,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             6,703
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 68%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://perfect-reveal.org"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://perfect-reveal.org"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       synthesize leading-edge relationships
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     perfect-reveal.org
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://hard-to-find-vet.biz"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://hard-to-find-vet.biz"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -537,68 +641,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             2,532
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 26%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://low-superiority.com"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://low-superiority.com"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       redefine transparent eyeballs
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     low-superiority.com
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://sure-footed-part.biz"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://sure-footed-part.biz"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -606,68 +722,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             6,477
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 66%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://outgoing-fraction.com"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://outgoing-fraction.com"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       engage best-of-breed initiatives
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     outgoing-fraction.com
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://judicious-universe.com"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://judicious-universe.com"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -675,68 +803,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             282
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 4%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://ambitious-venture.biz"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://ambitious-venture.biz"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       transition B2C eyeballs
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     ambitious-venture.biz
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://high-invention.info"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://high-invention.info"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -744,7 +884,7 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             6,353
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 65%;"
           />
         </div>
@@ -794,21 +934,41 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
         </span>
       </h3>
     </div>
-    <h4
-      class="text--normal"
+    <p
+      class="text--normal margin-top-neg-1 margin-bottom-0"
     >
       <em>
         Top videos played over the last week on NASA hostnames.
       </em>
-    </h4>
+    </p>
+    <p
+      class="margin-top-1 margin-bottom-0"
+    >
+      <a
+        aria-label="video-foobar.json.csv"
+        href="http://www.example.com/data//video-foobar.json.csv"
+      >
+        Download the data
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
+    </p>
     <figure
       class="top-video-plays__bar-chart"
     >
       <div
-        class="data chart__bar-chart text--capitalize margin-top-4"
+        class="data chart__bar-chart text--capitalize margin-top-2"
       >
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -827,12 +987,12 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             7,410
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 82%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -851,12 +1011,12 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             9,078
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 100%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -875,12 +1035,12 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             2,177
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 25%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -899,12 +1059,12 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             3,888
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 43%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -923,12 +1083,12 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             3,831
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 43%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -947,12 +1107,12 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             5,994
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 66%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -971,12 +1131,12 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             3,288
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 37%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -995,12 +1155,12 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             7,669
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 85%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -1019,12 +1179,12 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             6,760
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 75%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -1043,7 +1203,7 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
             4,298
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 48%;"
           />
         </div>
@@ -1056,7 +1216,7 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has >
 exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2 results renders a component with data loaded 1`] = `
 <DocumentFragment>
   <section
-    class="top-downloads padding-bottom-1"
+    class="top-downloads padding-bottom-1 border-bottom-1px border-base-light"
   >
     <div
       class="top-downloads__headline"
@@ -1098,77 +1258,109 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
         </span>
       </h3>
     </div>
-    <h4
-      class="text--normal"
+    <p
+      class="text--normal margin-top-neg-1 margin-bottom-0"
     >
       <em>
         Top file downloads over the last week on NASA hostnames.
       </em>
-    </h4>
+    </p>
+    <p
+      class="margin-top-1 margin-bottom-0"
+    >
+      <a
+        aria-label="download-foobar.json.csv"
+        href="http://www.example.com/data//download-foobar.json.csv"
+      >
+        Download the data
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
+    </p>
     <figure
       class="top-downloads__bar-chart"
     >
       <div
-        class="data chart__bar-chart text--capitalize margin-top-4"
+        class="data chart__bar-chart text--capitalize margin-top-2"
       >
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://bright-monotheism.net"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://bright-monotheism.net"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       matrix turn-key architectures
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     bright-monotheism.net
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://flawless-naturalisation.info"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://flawless-naturalisation.info"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -1176,68 +1368,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             7,269
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 75%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://admirable-art.org"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://admirable-art.org"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       enhance world-class web services
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     admirable-art.org
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://rigid-oboe.name"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://rigid-oboe.name"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -1245,68 +1449,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             1,243
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 14%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://whimsical-pipe.com"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://whimsical-pipe.com"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       mesh innovative mindshare
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     whimsical-pipe.com
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://posh-dialogue.org"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://posh-dialogue.org"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -1314,68 +1530,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             4,132
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 43%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://ringed-sweatsuit.net"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://ringed-sweatsuit.net"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       seize real-time technologies
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     ringed-sweatsuit.net
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://thunderous-provider.biz"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://thunderous-provider.biz"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -1383,68 +1611,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             308
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 4%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://pointed-necktie.info"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://pointed-necktie.info"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       utilize revolutionary users
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     pointed-necktie.info
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://deficient-burrito.net"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://deficient-burrito.net"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -1452,68 +1692,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             2,825
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 30%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://quarterly-stallion.org"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://quarterly-stallion.org"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       scale magnetic metrics
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     quarterly-stallion.org
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://bold-sorbet.com"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://bold-sorbet.com"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -1521,68 +1773,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             4,009
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 42%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://scornful-behest.info"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://scornful-behest.info"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       facilitate back-end solutions
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     scornful-behest.info
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://embarrassed-boxspring.com"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://embarrassed-boxspring.com"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -1590,68 +1854,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             5,914
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 61%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://emotional-custard.net"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://emotional-custard.net"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       streamline global ROI
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     emotional-custard.net
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://urban-happening.name"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://urban-happening.name"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -1659,68 +1935,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             3,016
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 32%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://nervous-recipient.com"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://nervous-recipient.com"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       engage transparent initiatives
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     nervous-recipient.com
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://advanced-environment.name"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://advanced-environment.name"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -1728,68 +2016,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             405
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 5%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://fitting-scallops.biz"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://fitting-scallops.biz"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       enable customized solutions
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     fitting-scallops.biz
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://knobby-sleuth.name"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://knobby-sleuth.name"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -1797,68 +2097,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             8,628
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 89%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://heartfelt-crook.biz"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://heartfelt-crook.biz"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       monetize extensible initiatives
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     heartfelt-crook.biz
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://zigzag-union.org"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://zigzag-union.org"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -1866,68 +2178,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             1,435
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 16%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://exciting-disclaimer.info"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://exciting-disclaimer.info"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       implement clicks-and-mortar e-commerce
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     exciting-disclaimer.info
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://massive-veteran.biz"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://massive-veteran.biz"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -1935,68 +2259,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             9,727
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 100%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://tame-name.name"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://tame-name.name"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       synergize best-of-breed schemas
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     tame-name.name
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://several-strait.info"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://several-strait.info"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -2004,68 +2340,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             1,036
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 12%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://giddy-octagon.org"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://giddy-octagon.org"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       harness one-to-one solutions
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     giddy-octagon.org
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://wooden-anteater.biz"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://wooden-anteater.biz"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -2073,68 +2421,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             5,762
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 60%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://early-dragster.net"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://early-dragster.net"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       morph e-business technologies
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     early-dragster.net
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://witty-wasabi.name"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://witty-wasabi.name"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -2142,68 +2502,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             9,656
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 99%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://gray-aggression.info"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://gray-aggression.info"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       engage web-enabled functionalities
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     gray-aggression.info
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://glossy-shootdown.info"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://glossy-shootdown.info"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -2211,68 +2583,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             2,127
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 23%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://heartfelt-elite.net"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://heartfelt-elite.net"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       seize viral solutions
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     heartfelt-elite.net
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://perky-bandwidth.com"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://perky-bandwidth.com"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -2280,68 +2664,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             6,133
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 63%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://overjoyed-sage.org"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://overjoyed-sage.org"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       synergize wireless synergies
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     overjoyed-sage.org
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://wary-bachelor.com"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://wary-bachelor.com"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -2349,68 +2745,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             3,228
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 34%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://critical-lobby.com"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://critical-lobby.com"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       matrix frictionless bandwidth
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     critical-lobby.com
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://ragged-wildlife.net"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://ragged-wildlife.net"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -2418,68 +2826,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             5,610
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 58%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://jumbo-fahrenheit.info"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://jumbo-fahrenheit.info"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       brand killer web services
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     jumbo-fahrenheit.info
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://separate-cricket.org"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://separate-cricket.org"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -2487,7 +2907,7 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
             5,672
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 59%;"
           />
         </div>
@@ -2537,13 +2957,33 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
         </span>
       </h3>
     </div>
-    <h4
-      class="text--normal"
+    <p
+      class="text--normal margin-top-neg-1 margin-bottom-0"
     >
       <em>
         Video play data is unavailable for NASA hostnames.
       </em>
-    </h4>
+    </p>
+    <p
+      class="margin-top-1 margin-bottom-0"
+    >
+      <a
+        aria-label="video-foobar.json.csv"
+        href="http://www.example.com/data//video-foobar.json.csv"
+      >
+        Download the data
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
+    </p>
     <div />
   </section>
 </DocumentFragment>
@@ -2552,7 +2992,7 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data has 2
 exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is empty renders a component with data loaded 1`] = `
 <DocumentFragment>
   <section
-    class="top-downloads padding-bottom-1"
+    class="top-downloads padding-bottom-1 border-bottom-1px border-base-light"
   >
     <div
       class="top-downloads__headline"
@@ -2594,77 +3034,109 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
         </span>
       </h3>
     </div>
-    <h4
-      class="text--normal"
+    <p
+      class="text--normal margin-top-neg-1 margin-bottom-0"
     >
       <em>
         Top file downloads over the last week on NASA hostnames.
       </em>
-    </h4>
+    </p>
+    <p
+      class="margin-top-1 margin-bottom-0"
+    >
+      <a
+        aria-label="download-foobar.json.csv"
+        href="http://www.example.com/data//download-foobar.json.csv"
+      >
+        Download the data
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
+    </p>
     <figure
       class="top-downloads__bar-chart"
     >
       <div
-        class="data chart__bar-chart text--capitalize margin-top-4"
+        class="data chart__bar-chart text--capitalize margin-top-2"
       >
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://robust-childhood.com"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://robust-childhood.com"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       deploy virtual synergies
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     robust-childhood.com
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://dizzy-ladybug.net"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://dizzy-ladybug.net"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -2672,68 +3144,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             3,048
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 32%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://early-locality.org"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://early-locality.org"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       leverage back-end paradigms
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     early-locality.org
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://questionable-lake.net"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://questionable-lake.net"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -2741,68 +3225,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             6,120
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 63%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://wide-intervention.name"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://wide-intervention.name"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       orchestrate efficient applications
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     wide-intervention.name
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://kindhearted-opening.biz"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://kindhearted-opening.biz"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -2810,68 +3306,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             4,440
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 46%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://vain-coil.name"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://vain-coil.name"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       mesh frictionless networks
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     vain-coil.name
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://crisp-barber.com"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://crisp-barber.com"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -2879,68 +3387,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             494
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 6%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://shameful-contest.org"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://shameful-contest.org"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       engineer world-class networks
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     shameful-contest.org
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://open-territory.name"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://open-territory.name"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -2948,68 +3468,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             6,711
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 70%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://unwelcome-pressroom.com"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://unwelcome-pressroom.com"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       envisioneer cross-platform web services
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     unwelcome-pressroom.com
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://athletic-cellar.com"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://athletic-cellar.com"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3017,68 +3549,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             4,531
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 47%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://eager-breakdown.net"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://eager-breakdown.net"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       syndicate vertical technologies
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     eager-breakdown.net
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://difficult-resist.net"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://difficult-resist.net"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3086,68 +3630,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             691
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 8%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://honest-reliability.name"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://honest-reliability.name"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       enable viral interfaces
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     honest-reliability.name
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://haunting-shoes.biz"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://haunting-shoes.biz"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3155,68 +3711,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             3,970
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 42%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://hidden-yarn.org"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://hidden-yarn.org"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       expedite out-of-the-box blockchains
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     hidden-yarn.org
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://jumbo-counselor.net"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://jumbo-counselor.net"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3224,68 +3792,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             9,697
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 100%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://outgoing-journalism.name"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://outgoing-journalism.name"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       architect visionary paradigms
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     outgoing-journalism.name
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://lanky-gratitude.net"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://lanky-gratitude.net"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3293,68 +3873,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             3,534
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 37%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://giant-daddy.name"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://giant-daddy.name"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       enable e-business initiatives
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     giant-daddy.name
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://quaint-boycott.name"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://quaint-boycott.name"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3362,68 +3954,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             6,774
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 70%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://smoggy-obligation.name"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://smoggy-obligation.name"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       optimize enterprise metrics
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     smoggy-obligation.name
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://medical-detail.com"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://medical-detail.com"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3431,68 +4035,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             5,288
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 55%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://ragged-millet.org"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://ragged-millet.org"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       brand viral ROI
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     ragged-millet.org
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://oily-cloister.name"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://oily-cloister.name"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3500,68 +4116,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             559
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 7%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://indelible-amount.biz"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://indelible-amount.biz"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       aggregate efficient lifetime value
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     indelible-amount.biz
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://long-oeuvre.name"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://long-oeuvre.name"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3569,68 +4197,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             8,144
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 84%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://lumbering-living.biz"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://lumbering-living.biz"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       matrix intuitive networks
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     lumbering-living.biz
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://costly-media.biz"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://costly-media.biz"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3638,68 +4278,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             5,439
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 57%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://suspicious-antler.net"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://suspicious-antler.net"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       streamline bleeding-edge functionalities
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     suspicious-antler.net
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://unwilling-fencing.com"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://unwilling-fencing.com"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3707,68 +4359,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             7,968
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 82%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://lavish-cenotaph.org"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://lavish-cenotaph.org"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       e-enable revolutionary web services
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     lavish-cenotaph.org
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://villainous-heaven.info"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://villainous-heaven.info"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3776,68 +4440,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             2,433
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 26%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://cool-autumn.info"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://cool-autumn.info"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       empower global infrastructures
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     cool-autumn.info
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://serious-legitimacy.org"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://serious-legitimacy.org"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3845,68 +4521,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             7,274
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 75%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://dramatic-quartz.org"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://dramatic-quartz.org"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       brand revolutionary paradigms
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     dramatic-quartz.org
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://noteworthy-dining.net"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://noteworthy-dining.net"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3914,68 +4602,80 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             6,773
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 70%;"
           />
         </div>
         <div
-          class="chart__bar-chart__item"
+          class="chart__bar-chart__item margin-bottom-2"
         >
           <div
             class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
           >
-            <span
-              class="top-download__page-name"
-            >
+            <div>
               
-                    
-              <a
-                href="http://graceful-cabinet.name"
-                rel="noopener"
-                target="_blank"
+                  
+              <div
+                class="top-download__page-name text--overflow-ellipsis"
               >
                 
+                    
+                <a
+                  href="http://graceful-cabinet.name"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       utilize best-of-breed users
                     
-              </a>
+                </a>
+                
+                  
+              </div>
               
                   
-            </span>
-            
+              <div>
+                
                   
-            <span
-              class="top-download__page-domain"
-            >
-              
+                <span
+                  class="top-download__page-domain text--lowercase dark-grey"
+                >
+                  
                     graceful-cabinet.name
                   
-            </span>
-            
-                  
-            <span
-              class="divider"
-            >
-              /
-            </span>
-            
-                  
-            <span
-              class="top-download__file-location"
-            >
-              
-                    
-              <a
-                href="https://treasured-tangerine.biz"
-                rel="noopener"
-                target="_blank"
-              >
+                </span>
                 
+                  
+                <span
+                  class="divider"
+                >
+                  /
+                </span>
+                
+                  
+                <span
+                  class="top-download__file-location text--lowercase"
+                >
+                  
+                    
+                  <a
+                    href="https://treasured-tangerine.biz"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    
                       download file
                     
-              </a>
+                  </a>
+                  
+                  
+                </span>
+                
+                  
+              </div>
               
                   
-            </span>
+            </div>
           </div>
           <div
             class="chart__bar-chart__item__value"
@@ -3983,7 +4683,7 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
             8,634
           </div>
           <div
-            class="chart__bar-chart__item__bar bg-palette-color-5"
+            class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
             style="width: 89%;"
           />
         </div>
@@ -4033,13 +4733,33 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
         </span>
       </h3>
     </div>
-    <h4
-      class="text--normal"
+    <p
+      class="text--normal margin-top-neg-1 margin-bottom-0"
     >
       <em>
         Video play data is unavailable for NASA hostnames.
       </em>
-    </h4>
+    </p>
+    <p
+      class="margin-top-1 margin-bottom-0"
+    >
+      <a
+        aria-label="video-foobar.json.csv"
+        href="http://www.example.com/data//video-foobar.json.csv"
+      >
+        Download the data
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
+    </p>
     <div />
   </section>
 </DocumentFragment>
@@ -4048,7 +4768,7 @@ exports[`TopDownloadsAndVideoPlays when data is loaded and video play data is em
 exports[`TopDownloadsAndVideoPlays when data is not loaded renders a component in loading state 1`] = `
 <DocumentFragment>
   <section
-    class="top-downloads padding-bottom-1"
+    class="top-downloads padding-bottom-1 border-bottom-1px border-base-light"
   >
     <div
       class="top-downloads__headline"
@@ -4090,18 +4810,38 @@ exports[`TopDownloadsAndVideoPlays when data is not loaded renders a component i
         </span>
       </h3>
     </div>
-    <h4
-      class="text--normal"
+    <p
+      class="text--normal margin-top-neg-1 margin-bottom-0"
     >
       <em>
         Top file downloads over the last week on NASA hostnames.
       </em>
-    </h4>
+    </p>
+    <p
+      class="margin-top-1 margin-bottom-0"
+    >
+      <a
+        aria-label="download-foobar.json.csv"
+        href="http://www.example.com/data//download-foobar.json.csv"
+      >
+        Download the data
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
+    </p>
     <figure
       class="top-downloads__bar-chart"
     >
       <div
-        class="data chart__bar-chart text--capitalize margin-top-4"
+        class="data chart__bar-chart text--capitalize margin-top-2"
       />
     </figure>
   </section>
@@ -4148,13 +4888,33 @@ exports[`TopDownloadsAndVideoPlays when data is not loaded renders a component i
         </span>
       </h3>
     </div>
-    <h4
-      class="text--normal"
+    <p
+      class="text--normal margin-top-neg-1 margin-bottom-0"
     >
       <em>
         Video play data is unavailable for NASA hostnames.
       </em>
-    </h4>
+    </p>
+    <p
+      class="margin-top-1 margin-bottom-0"
+    >
+      <a
+        aria-label="video-foobar.json.csv"
+        href="http://www.example.com/data//video-foobar.json.csv"
+      >
+        Download the data
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
+    </p>
     <div />
   </section>
 </DocumentFragment>
@@ -4163,7 +4923,7 @@ exports[`TopDownloadsAndVideoPlays when data is not loaded renders a component i
 exports[`TopDownloadsAndVideoPlays when data loading has an error renders a component in error state 1`] = `
 <DocumentFragment>
   <section
-    class="top-downloads padding-bottom-1"
+    class="top-downloads padding-bottom-1 border-bottom-1px border-base-light"
   >
     <div
       class="top-downloads__headline"
@@ -4205,18 +4965,38 @@ exports[`TopDownloadsAndVideoPlays when data loading has an error renders a comp
         </span>
       </h3>
     </div>
-    <h4
-      class="text--normal"
+    <p
+      class="text--normal margin-top-neg-1 margin-bottom-0"
     >
       <em>
         Top file downloads over the last week on NASA hostnames.
       </em>
-    </h4>
+    </p>
+    <p
+      class="margin-top-1 margin-bottom-0"
+    >
+      <a
+        aria-label="download-foobar.json.csv"
+        href="http://www.example.com/data//download-foobar.json.csv"
+      >
+        Download the data
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
+    </p>
     <figure
       class="top-downloads__bar-chart"
     >
       <div
-        class="data chart__bar-chart text--capitalize margin-top-4"
+        class="data chart__bar-chart text--capitalize margin-top-2"
       />
     </figure>
   </section>
@@ -4263,13 +5043,33 @@ exports[`TopDownloadsAndVideoPlays when data loading has an error renders a comp
         </span>
       </h3>
     </div>
-    <h4
-      class="text--normal"
+    <p
+      class="text--normal margin-top-neg-1 margin-bottom-0"
     >
       <em>
         Video play data is unavailable for NASA hostnames.
       </em>
-    </h4>
+    </p>
+    <p
+      class="margin-top-1 margin-bottom-0"
+    >
+      <a
+        aria-label="video-foobar.json.csv"
+        href="http://www.example.com/data//video-foobar.json.csv"
+      >
+        Download the data
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_download"
+          />
+        </svg>
+      </a>
+    </p>
     <div />
   </section>
 </DocumentFragment>

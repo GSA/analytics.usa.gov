@@ -32,6 +32,19 @@ function TrafficSources({ dataHrefBase }) {
               Top Channels
             </Tooltip>
           </a>
+          <a
+            href={`${dataHrefBase}/top-session-channel-group-30-days.json`}
+            aria-label="top-session-channel-group-30-days.csv"
+          >
+            <svg
+              className="usa-icon margin-bottom-neg-05 margin-left-05"
+              aria-hidden="true"
+              focusable="false"
+              role="img"
+            >
+              <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+            </svg>
+          </a>
         </div>
         <div className="text--capitalize">
           <ConsolidatedBarChart
@@ -54,6 +67,19 @@ function TrafficSources({ dataHrefBase }) {
             >
               Top Sources/Media
             </Tooltip>
+          </a>
+          <a
+            href={`${dataHrefBase}/top-session-source-medium-30-days.json`}
+            aria-label="top-session-source-medium-30-days.csv"
+          >
+            <svg
+              className="usa-icon margin-bottom-neg-05 margin-left-05"
+              aria-hidden="true"
+              focusable="false"
+              role="img"
+            >
+              <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+            </svg>
           </a>
         </div>
         <div className="text--capitalize">

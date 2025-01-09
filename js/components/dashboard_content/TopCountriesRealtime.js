@@ -23,7 +23,8 @@ import Tooltip from "../tooltip/Tooltip";
  * @returns {import('react').ReactElement} The rendered element
  */
 function TopCountriesRealtime({ dataHrefBase, refreshSeconds }) {
-  const dataURL = `${dataHrefBase}/top-countries-realtime.json`;
+  const jsonDataURL = `${dataHrefBase}/top-countries-realtime.json`;
+  const csvDataURL = `${dataHrefBase}/top-countries-realtime.csv`;
   const countriesRef = useRef(null);
   const usTerritoriesRef = useRef(null);
   const internationalVisitsRef = useRef(null);
@@ -33,12 +34,12 @@ function TopCountriesRealtime({ dataHrefBase, refreshSeconds }) {
   useEffect(() => {
     const initRealtimeCountriesChart = async () => {
       if (!countryData) {
-        const data = await DataLoader.loadJSON(dataURL);
+        const data = await DataLoader.loadJSON(jsonDataURL);
         await setCountryData(data);
         // Refresh data every interval. useEffect will run and update the chart
         // when the state is changed.
         setInterval(() => {
-          DataLoader.loadJSON(dataURL).then((data) => {
+          DataLoader.loadJSON(jsonDataURL).then((data) => {
             setCountryData(data);
             setChartsLoaded(false);
           });
@@ -156,6 +157,16 @@ function TopCountriesRealtime({ dataHrefBase, refreshSeconds }) {
             Countries
           </Tooltip>
         </a>
+        <a href={csvDataURL} aria-label="top-countries-realtime.csv">
+          <svg
+            className="usa-icon margin-bottom-neg-05 margin-left-05"
+            aria-hidden="true"
+            focusable="false"
+            role="img"
+          >
+            <use xlinkHref="/assets/uswds/img/sprite.svg#file_download"></use>
+          </svg>
+        </a>
       </div>
       <figure id="chart_us" ref={countriesRef}>
         <div className="data chart__bar-chart text--capitalize margin-top-2"></div>
@@ -166,7 +177,7 @@ function TopCountriesRealtime({ dataHrefBase, refreshSeconds }) {
         className="hide chart__bar-chart__nested"
         ref={usTerritoriesRef}
       >
-        <div className="data chart__bar-chart text--capitalize margin-top-4"></div>
+        <div className="data chart__bar-chart text--capitalize"></div>
       </figure>
 
       <figure
@@ -174,7 +185,7 @@ function TopCountriesRealtime({ dataHrefBase, refreshSeconds }) {
         className="hide chart__bar-chart__nested"
         ref={internationalVisitsRef}
       >
-        <div className="data chart__bar-chart text--capitalize margin-top-4"></div>
+        <div className="data chart__bar-chart text--capitalize"></div>
       </figure>
     </div>
   );

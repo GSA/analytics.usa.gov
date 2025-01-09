@@ -6,66 +6,78 @@ exports[`TopDownloads when data is loaded renders a component with data loaded 1
     class="top-downloads__bar-chart"
   >
     <div
-      class="data chart__bar-chart text--capitalize margin-top-4"
+      class="data chart__bar-chart text--capitalize margin-top-2"
     >
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
         >
-          <span
-            class="top-download__page-name"
-          >
+          <div>
             
-                    
-            <a
-              href="http://robust-childhood.com"
-              rel="noopener"
-              target="_blank"
+                  
+            <div
+              class="top-download__page-name text--overflow-ellipsis"
             >
               
+                    
+              <a
+                href="http://robust-childhood.com"
+                rel="noopener"
+                target="_blank"
+              >
+                
                       deploy virtual synergies
                     
-            </a>
+              </a>
+              
+                  
+            </div>
             
                   
-          </span>
-          
+            <div>
+              
                   
-          <span
-            class="top-download__page-domain"
-          >
-            
+              <span
+                class="top-download__page-domain text--lowercase dark-grey"
+              >
+                
                     robust-childhood.com
                   
-          </span>
-          
-                  
-          <span
-            class="divider"
-          >
-            /
-          </span>
-          
-                  
-          <span
-            class="top-download__file-location"
-          >
-            
-                    
-            <a
-              href="https://dizzy-ladybug.net"
-              rel="noopener"
-              target="_blank"
-            >
+              </span>
               
+                  
+              <span
+                class="divider"
+              >
+                /
+              </span>
+              
+                  
+              <span
+                class="top-download__file-location text--lowercase"
+              >
+                
+                    
+                <a
+                  href="https://dizzy-ladybug.net"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       download file
                     
-            </a>
+                </a>
+                
+                  
+              </span>
+              
+                  
+            </div>
             
                   
-          </span>
+          </div>
         </div>
         <div
           class="chart__bar-chart__item__value"
@@ -73,68 +85,80 @@ exports[`TopDownloads when data is loaded renders a component with data loaded 1
           3,048
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 46%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
         >
-          <span
-            class="top-download__page-name"
-          >
+          <div>
             
-                    
-            <a
-              href="http://early-locality.org"
-              rel="noopener"
-              target="_blank"
+                  
+            <div
+              class="top-download__page-name text--overflow-ellipsis"
             >
               
+                    
+              <a
+                href="http://early-locality.org"
+                rel="noopener"
+                target="_blank"
+              >
+                
                       leverage back-end paradigms
                     
-            </a>
+              </a>
+              
+                  
+            </div>
             
                   
-          </span>
-          
+            <div>
+              
                   
-          <span
-            class="top-download__page-domain"
-          >
-            
+              <span
+                class="top-download__page-domain text--lowercase dark-grey"
+              >
+                
                     early-locality.org
                   
-          </span>
-          
-                  
-          <span
-            class="divider"
-          >
-            /
-          </span>
-          
-                  
-          <span
-            class="top-download__file-location"
-          >
-            
-                    
-            <a
-              href="https://questionable-lake.net"
-              rel="noopener"
-              target="_blank"
-            >
+              </span>
               
+                  
+              <span
+                class="divider"
+              >
+                /
+              </span>
+              
+                  
+              <span
+                class="top-download__file-location text--lowercase"
+              >
+                
+                    
+                <a
+                  href="https://questionable-lake.net"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       download file
                     
-            </a>
+                </a>
+                
+                  
+              </span>
+              
+                  
+            </div>
             
                   
-          </span>
+          </div>
         </div>
         <div
           class="chart__bar-chart__item__value"
@@ -142,68 +166,80 @@ exports[`TopDownloads when data is loaded renders a component with data loaded 1
           6,120
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 91%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
         >
-          <span
-            class="top-download__page-name"
-          >
+          <div>
             
-                    
-            <a
-              href="http://wide-intervention.name"
-              rel="noopener"
-              target="_blank"
+                  
+            <div
+              class="top-download__page-name text--overflow-ellipsis"
             >
               
+                    
+              <a
+                href="http://wide-intervention.name"
+                rel="noopener"
+                target="_blank"
+              >
+                
                       orchestrate efficient applications
                     
-            </a>
+              </a>
+              
+                  
+            </div>
             
                   
-          </span>
-          
+            <div>
+              
                   
-          <span
-            class="top-download__page-domain"
-          >
-            
+              <span
+                class="top-download__page-domain text--lowercase dark-grey"
+              >
+                
                     wide-intervention.name
                   
-          </span>
-          
-                  
-          <span
-            class="divider"
-          >
-            /
-          </span>
-          
-                  
-          <span
-            class="top-download__file-location"
-          >
-            
-                    
-            <a
-              href="https://kindhearted-opening.biz"
-              rel="noopener"
-              target="_blank"
-            >
+              </span>
               
+                  
+              <span
+                class="divider"
+              >
+                /
+              </span>
+              
+                  
+              <span
+                class="top-download__file-location text--lowercase"
+              >
+                
+                    
+                <a
+                  href="https://kindhearted-opening.biz"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       download file
                     
-            </a>
+                </a>
+                
+                  
+              </span>
+              
+                  
+            </div>
             
                   
-          </span>
+          </div>
         </div>
         <div
           class="chart__bar-chart__item__value"
@@ -211,68 +247,80 @@ exports[`TopDownloads when data is loaded renders a component with data loaded 1
           4,440
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 66%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
         >
-          <span
-            class="top-download__page-name"
-          >
+          <div>
             
-                    
-            <a
-              href="http://vain-coil.name"
-              rel="noopener"
-              target="_blank"
+                  
+            <div
+              class="top-download__page-name text--overflow-ellipsis"
             >
               
+                    
+              <a
+                href="http://vain-coil.name"
+                rel="noopener"
+                target="_blank"
+              >
+                
                       mesh frictionless networks
                     
-            </a>
+              </a>
+              
+                  
+            </div>
             
                   
-          </span>
-          
+            <div>
+              
                   
-          <span
-            class="top-download__page-domain"
-          >
-            
+              <span
+                class="top-download__page-domain text--lowercase dark-grey"
+              >
+                
                     vain-coil.name
                   
-          </span>
-          
-                  
-          <span
-            class="divider"
-          >
-            /
-          </span>
-          
-                  
-          <span
-            class="top-download__file-location"
-          >
-            
-                    
-            <a
-              href="https://crisp-barber.com"
-              rel="noopener"
-              target="_blank"
-            >
+              </span>
               
+                  
+              <span
+                class="divider"
+              >
+                /
+              </span>
+              
+                  
+              <span
+                class="top-download__file-location text--lowercase"
+              >
+                
+                    
+                <a
+                  href="https://crisp-barber.com"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       download file
                     
-            </a>
+                </a>
+                
+                  
+              </span>
+              
+                  
+            </div>
             
                   
-          </span>
+          </div>
         </div>
         <div
           class="chart__bar-chart__item__value"
@@ -280,68 +328,80 @@ exports[`TopDownloads when data is loaded renders a component with data loaded 1
           494
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 8%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
         >
-          <span
-            class="top-download__page-name"
-          >
+          <div>
             
-                    
-            <a
-              href="http://shameful-contest.org"
-              rel="noopener"
-              target="_blank"
+                  
+            <div
+              class="top-download__page-name text--overflow-ellipsis"
             >
               
+                    
+              <a
+                href="http://shameful-contest.org"
+                rel="noopener"
+                target="_blank"
+              >
+                
                       engineer world-class networks
                     
-            </a>
+              </a>
+              
+                  
+            </div>
             
                   
-          </span>
-          
+            <div>
+              
                   
-          <span
-            class="top-download__page-domain"
-          >
-            
+              <span
+                class="top-download__page-domain text--lowercase dark-grey"
+              >
+                
                     shameful-contest.org
                   
-          </span>
-          
-                  
-          <span
-            class="divider"
-          >
-            /
-          </span>
-          
-                  
-          <span
-            class="top-download__file-location"
-          >
-            
-                    
-            <a
-              href="https://open-territory.name"
-              rel="noopener"
-              target="_blank"
-            >
+              </span>
               
+                  
+              <span
+                class="divider"
+              >
+                /
+              </span>
+              
+                  
+              <span
+                class="top-download__file-location text--lowercase"
+              >
+                
+                    
+                <a
+                  href="https://open-territory.name"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  
                       download file
                     
-            </a>
+                </a>
+                
+                  
+              </span>
+              
+                  
+            </div>
             
                   
-          </span>
+          </div>
         </div>
         <div
           class="chart__bar-chart__item__value"
@@ -349,7 +409,7 @@ exports[`TopDownloads when data is loaded renders a component with data loaded 1
           6,711
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 100%;"
         />
       </div>
@@ -364,7 +424,7 @@ exports[`TopDownloads when data is not loaded renders a component in loading sta
     class="top-downloads__bar-chart"
   >
     <div
-      class="data chart__bar-chart text--capitalize margin-top-4"
+      class="data chart__bar-chart text--capitalize margin-top-2"
     />
   </figure>
 </DocumentFragment>
@@ -376,7 +436,7 @@ exports[`TopDownloads when data loading has an error renders a component in erro
     class="top-downloads__bar-chart"
   >
     <div
-      class="data chart__bar-chart text--capitalize margin-top-4"
+      class="data chart__bar-chart text--capitalize margin-top-2"
     />
   </figure>
 </DocumentFragment>

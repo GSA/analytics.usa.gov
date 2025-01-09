@@ -77,12 +77,20 @@ $palette-colors: (
   &:hover {
     color: $black;
   }
+
+  &:visited {
+    color: $black;
+  }
 }
 
 .dark-grey {
   color: $dark-gray;
 
   &:hover {
+    color: $dark-gray;
+  }
+
+  &:visited {
     color: $dark-gray;
   }
 }

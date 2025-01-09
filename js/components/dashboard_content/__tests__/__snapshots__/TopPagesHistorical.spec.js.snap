@@ -6,10 +6,10 @@ exports[`TopPagesHistorical when data is loaded renders a component with data lo
     data-source="http://www.example.com/data//foobar.json"
   >
     <div
-      class="data chart__bar-chart text--lowercase margin-top-4"
+      class="data chart__bar-chart text--lowercase margin-top-1"
     >
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -28,12 +28,12 @@ exports[`TopPagesHistorical when data is loaded renders a component with data lo
           209,141
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 32%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -52,12 +52,12 @@ exports[`TopPagesHistorical when data is loaded renders a component with data lo
           668,921
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 100%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -76,12 +76,12 @@ exports[`TopPagesHistorical when data is loaded renders a component with data lo
           466,610
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 70%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -100,12 +100,12 @@ exports[`TopPagesHistorical when data is loaded renders a component with data lo
           154,583
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 24%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -124,12 +124,12 @@ exports[`TopPagesHistorical when data is loaded renders a component with data lo
           588,116
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 88%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -148,12 +148,12 @@ exports[`TopPagesHistorical when data is loaded renders a component with data lo
           48,597
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 8%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -172,12 +172,12 @@ exports[`TopPagesHistorical when data is loaded renders a component with data lo
           194,286
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 30%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -196,12 +196,12 @@ exports[`TopPagesHistorical when data is loaded renders a component with data lo
           376,165
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 57%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -220,12 +220,12 @@ exports[`TopPagesHistorical when data is loaded renders a component with data lo
           460,101
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 69%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -244,7 +244,7 @@ exports[`TopPagesHistorical when data is loaded renders a component with data lo
           473,734
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 71%;"
         />
       </div>
@@ -259,7 +259,7 @@ exports[`TopPagesHistorical when data is not loaded renders a component in loadi
     data-source="http://www.example.com/data//foobar.json"
   >
     <div
-      class="data chart__bar-chart text--lowercase margin-top-4"
+      class="data chart__bar-chart text--lowercase margin-top-1"
     />
   </figure>
 </DocumentFragment>
@@ -271,7 +271,7 @@ exports[`TopPagesHistorical when data loading has an error renders a component i
     data-source="http://www.example.com/data//foobar.json"
   >
     <div
-      class="data chart__bar-chart text--lowercase margin-top-4"
+      class="data chart__bar-chart text--lowercase margin-top-1"
     />
   </figure>
 </DocumentFragment>

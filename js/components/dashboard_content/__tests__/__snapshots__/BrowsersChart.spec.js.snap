@@ -29,15 +29,30 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
         </span>
       </span>
     </a>
+    <a
+      aria-label="browsers.csv"
+      href="http://www.example.com/data//browsers.csv"
+    >
+      <svg
+        aria-hidden="true"
+        class="usa-icon margin-bottom-neg-05 margin-left-05"
+        focusable="false"
+        role="img"
+      >
+        <use
+          xlink:href="/assets/uswds/img/sprite.svg#file_download"
+        />
+      </svg>
+    </a>
   </div>
   <figure
     id="chart_browsers"
   >
     <div
-      class="data chart__bar-chart text--capitalize margin-top-4"
+      class="data chart__bar-chart text--capitalize margin-top-2"
     >
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -50,12 +65,12 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
           48.7%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 49%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -68,12 +83,12 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
           35.8%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 36%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -86,12 +101,12 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
           8.8%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 9%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -104,12 +119,12 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
           1.9%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 2%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -122,12 +137,12 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
           1.9%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 2%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -140,12 +155,12 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
           1.4%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 1%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -158,12 +173,12 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
           1%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 1%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -176,12 +191,12 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
           0.2%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -194,12 +209,12 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
           0.1%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
       <div
-        class="chart__bar-chart__item"
+        class="chart__bar-chart__item margin-bottom-2"
       >
         <div
           class="chart__bar-chart__item__label dark-grey text--overflow-ellipsis margin-right-8"
@@ -212,7 +227,7 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
           0.1%
         </div>
         <div
-          class="chart__bar-chart__item__bar bg-palette-color-5"
+          class="chart__bar-chart__item__bar bg-palette-color-5 margin-top-0"
           style="width: 0%;"
         />
       </div>
@@ -250,12 +265,27 @@ exports[`BrowsersChart when data is not loaded renders a component in loading st
         </span>
       </span>
     </a>
+    <a
+      aria-label="browsers.csv"
+      href="http://www.example.com/data//browsers.csv"
+    >
+      <svg
+        aria-hidden="true"
+        class="usa-icon margin-bottom-neg-05 margin-left-05"
+        focusable="false"
+        role="img"
+      >
+        <use
+          xlink:href="/assets/uswds/img/sprite.svg#file_download"
+        />
+      </svg>
+    </a>
   </div>
   <figure
     id="chart_browsers"
   >
     <div
-      class="data chart__bar-chart text--capitalize margin-top-4"
+      class="data chart__bar-chart text--capitalize margin-top-2"
     />
   </figure>
 </DocumentFragment>
@@ -290,12 +320,27 @@ exports[`BrowsersChart when data loading has an error renders a component in err
         </span>
       </span>
     </a>
+    <a
+      aria-label="browsers.csv"
+      href="http://www.example.com/data//browsers.csv"
+    >
+      <svg
+        aria-hidden="true"
+        class="usa-icon margin-bottom-neg-05 margin-left-05"
+        focusable="false"
+        role="img"
+      >
+        <use
+          xlink:href="/assets/uswds/img/sprite.svg#file_download"
+        />
+      </svg>
+    </a>
   </div>
   <figure
     id="chart_browsers"
   >
     <div
-      class="data chart__bar-chart text--capitalize margin-top-4"
+      class="data chart__bar-chart text--capitalize margin-top-2"
     />
   </figure>
 </DocumentFragment>

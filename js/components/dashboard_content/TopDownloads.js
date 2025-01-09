@@ -47,20 +47,24 @@ function TopDownloads({
               .value((d) => +d.total_events)
               .label(
                 (d) =>
-                  `<span class="top-download__page-name">
+                  `<div>
+                  <div class="top-download__page-name text--overflow-ellipsis">
                     <a target="_blank" rel="noopener" href="http://${d.page}">
                       ${d.page_title}
                     </a>
-                  </span>
-                  <span class="top-download__page-domain">
+                  </div>
+                  <div>
+                  <span class="top-download__page-domain text--lowercase dark-grey">
                     ${formatters.formatURL(d.page)}
                   </span>
                   <span class="divider">/</span>
-                  <span class="top-download__file-location">
+                  <span class="top-download__file-location text--lowercase">
                     <a target="_blank" rel="noopener" href="${d.linkUrl}">
                       download file
                     </a>
-                  </span>`,
+                  </span>
+                  </div>
+                  </div>`,
               )
               .scale((values) =>
                 d3.scale
@@ -78,7 +82,7 @@ function TopDownloads({
 
   return (
     <figure className="top-downloads__bar-chart" ref={ref}>
-      <div className="data chart__bar-chart text--capitalize margin-top-4"></div>
+      <div className="data chart__bar-chart text--capitalize margin-top-2"></div>
     </figure>
   );
 }
