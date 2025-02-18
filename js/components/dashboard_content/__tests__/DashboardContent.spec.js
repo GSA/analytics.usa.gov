@@ -12,7 +12,9 @@ describe("DashboardContent", () => {
         agency="Department of Interior"
       />,
     );
-    await waitFor(() => screen.getByText("NaN"));
+    await waitFor(() =>
+      screen.getByText("Department of Interior Website and App Analytics"),
+    );
   });
 
   // Check for some subcomponents' text to ensure everything renders

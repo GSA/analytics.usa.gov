@@ -27,15 +27,11 @@ function RealtimeEventCount({ dataHrefBase, refreshSeconds, eventName }) {
   useEffect(() => {
     const fetchData = async () => {
       if (!realtimeReportData) {
-        const data = await DataLoader.loadJSON(dataURL);
-        await setRealtimeReportData(data);
-        // Refresh data every interval. useEffect will run and update the chart
-        // when the state is changed.
-        setInterval(() => {
-          DataLoader.loadJSON(dataURL).then((data) => {
-            setRealtimeReportData(data);
-          });
-        }, refreshSeconds * 1000);
+        try {
+          await loadReportData();
+        } catch (e) {
+          setDisplayValue("0");
+        }
       } else {
         if (shouldDisplayEventCount()) {
           setDisplayValue(formattedEventCount());
@@ -46,6 +42,18 @@ function RealtimeEventCount({ dataHrefBase, refreshSeconds, eventName }) {
     };
     fetchData().catch(console.error);
   }, [realtimeReportData]);
+
+  async function loadReportData() {
+    const data = await DataLoader.loadRealtimeReportJSON(dataURL);
+    await setRealtimeReportData(data);
+    // Refresh data every interval. useEffect will run and update the chart
+    // when the state is changed.
+    setInterval(() => {
+      DataLoader.loadRealtimeReportJSON(dataURL).then((data) => {
+        setRealtimeReportData(data);
+      });
+    }, refreshSeconds * 1000);
+  }
 
   function shouldDisplayEventCount() {
     return !!realtimeReportData.data && eventMatches(realtimeReportData.data);

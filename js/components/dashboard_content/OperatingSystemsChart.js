@@ -44,7 +44,7 @@ function OperatingSystemsChart({ dataHrefBase }) {
     let windowsData;
 
     try {
-      osData = await DataLoader.loadJSON(
+      osData = await DataLoader.loadDailyReportJSON(
         `${dataHrefBase}/os-${currentFilter[1]}.json`,
       );
     } catch (e) {
@@ -53,7 +53,7 @@ function OperatingSystemsChart({ dataHrefBase }) {
     await buildOsChartForData(osData);
 
     try {
-      windowsData = await DataLoader.loadJSON(
+      windowsData = await DataLoader.loadDailyReportJSON(
         `${dataHrefBase}/windows-${currentFilter[1]}.json`,
       );
     } catch (e) {

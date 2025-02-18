@@ -6,7 +6,7 @@ import EngagementRate from "../EngagementRate";
 
 jest.mock("../../../lib/data_loader", () => ({
   ...jest.requireActual("../../../lib/data_loader"),
-  loadJSON: jest.fn(),
+  loadDailyReportJSON: jest.fn(),
 }));
 
 describe("EngagementRate", () => {
@@ -15,7 +15,7 @@ describe("EngagementRate", () => {
 
   describe("when data is not loaded", () => {
     beforeEach(() => {
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.resolve(null);
       });
       component = render(
@@ -61,7 +61,7 @@ describe("EngagementRate", () => {
         taken_at: "2024-03-20T02:14:07.426Z",
       };
 
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.resolve(data);
       });
       component = render(
@@ -80,7 +80,7 @@ describe("EngagementRate", () => {
 
     beforeEach(() => {
       console.error = jest.fn();
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.reject(error);
       });
       component = render(

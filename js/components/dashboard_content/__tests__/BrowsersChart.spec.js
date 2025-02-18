@@ -7,7 +7,7 @@ import DataLoader from "../../../lib/data_loader";
 
 jest.mock("../../../lib/data_loader", () => ({
   ...jest.requireActual("../../../lib/data_loader"),
-  loadJSON: jest.fn(),
+  loadDailyReportJSON: jest.fn(),
 }));
 
 describe("BrowsersChart", () => {
@@ -16,7 +16,7 @@ describe("BrowsersChart", () => {
 
   describe("when data is not loaded", () => {
     beforeEach(() => {
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.resolve(null);
       });
       component = render(
@@ -80,7 +80,7 @@ describe("BrowsersChart", () => {
         taken_at: "2024-03-11T13:59:19.359Z",
       };
 
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.resolve(data);
       });
 
@@ -104,7 +104,7 @@ describe("BrowsersChart", () => {
 
     beforeEach(() => {
       console.error = jest.fn();
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.reject(error);
       });
       component = render(

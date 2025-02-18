@@ -7,7 +7,7 @@ import OperatingSystemsChart from "../OperatingSystemsChart";
 
 jest.mock("../../../lib/data_loader", () => ({
   ...jest.requireActual("../../../lib/data_loader"),
-  loadJSON: jest.fn(),
+  loadDailyReportJSON: jest.fn(),
 }));
 
 describe("OperatingSystemsChart", () => {
@@ -17,7 +17,7 @@ describe("OperatingSystemsChart", () => {
 
   describe("when data is not loaded", () => {
     beforeEach(() => {
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.resolve(null);
       });
       component = render(
@@ -88,7 +88,7 @@ describe("OperatingSystemsChart", () => {
         taken_at: "2024-03-11T14:11:24.185Z",
       };
 
-      DataLoader.loadJSON.mockImplementation((url) => {
+      DataLoader.loadDailyReportJSON.mockImplementation((url) => {
         if (url.includes("os-yesterday.json")) {
           return Promise.resolve(osData);
         } else if (url.includes("windows-yesterday.json")) {
@@ -114,7 +114,7 @@ describe("OperatingSystemsChart", () => {
 
     beforeEach(() => {
       console.error = jest.fn();
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.reject(error);
       });
       component = render(

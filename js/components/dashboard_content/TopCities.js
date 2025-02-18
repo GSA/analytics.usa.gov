@@ -58,9 +58,13 @@ function TopCities({ dataHrefBase, refreshSeconds }) {
     let data;
 
     try {
-      data = await DataLoader.loadJSON(
-        `${dataHrefBase}/${currentFilter[1]}.json`,
-      );
+      const url = `${dataHrefBase}/${currentFilter[1]}.json`;
+
+      if (isRealtime) {
+        data = await DataLoader.loadRealtimeReportJSON(url);
+      } else {
+        data = await DataLoader.loadDailyReportJSON(url);
+      }
     } catch (e) {
       data = { data: [], totals: {} };
     }

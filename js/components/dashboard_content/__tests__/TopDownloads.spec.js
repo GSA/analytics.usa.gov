@@ -8,7 +8,7 @@ import TopDownloads from "../TopDownloads";
 
 jest.mock("../../../lib/data_loader", () => ({
   ...jest.requireActual("../../../lib/data_loader"),
-  loadJSON: jest.fn(),
+  loadDailyReportJSON: jest.fn(),
 }));
 
 describe("TopDownloads", () => {
@@ -17,7 +17,7 @@ describe("TopDownloads", () => {
 
   describe("when data is not loaded", () => {
     beforeEach(async () => {
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.resolve(null);
       });
       component = render(
@@ -49,7 +49,7 @@ describe("TopDownloads", () => {
       data.data[0].file_name =
         "https://travel.state.gov/dv 2026 plain language instructions and faqs.pdf";
 
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.resolve(data);
       });
       component = render(
@@ -75,7 +75,7 @@ describe("TopDownloads", () => {
 
     beforeEach(async () => {
       console.error = jest.fn();
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.reject(error);
       });
       component = render(

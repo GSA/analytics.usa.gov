@@ -6,7 +6,7 @@ import Visitors30Days from "../Visitors30Days";
 
 jest.mock("../../../lib/data_loader", () => ({
   ...jest.requireActual("../../../lib/data_loader"),
-  loadJSON: jest.fn(),
+  loadDailyReportJSON: jest.fn(),
 }));
 
 describe("Visitors30Days", () => {
@@ -15,7 +15,7 @@ describe("Visitors30Days", () => {
 
   describe("when data is not loaded", () => {
     beforeEach(() => {
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.resolve(null);
       });
       component = render(
@@ -43,7 +43,7 @@ describe("Visitors30Days", () => {
         taken_at: "2024-03-11T13:59:08.677Z",
       };
 
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.resolve(data);
       });
       component = render(
@@ -62,7 +62,7 @@ describe("Visitors30Days", () => {
 
     beforeEach(() => {
       console.error = jest.fn();
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadDailyReportJSON.mockImplementation(() => {
         return Promise.reject(error);
       });
       component = render(

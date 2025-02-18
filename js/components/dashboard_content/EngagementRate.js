@@ -25,7 +25,7 @@ function EngagementRate({ dataHrefBase }) {
   useEffect(() => {
     const initEngagementRateChart = async () => {
       if (!engagementRateData) {
-        const data = await DataLoader.loadJSON(jsonDataURL);
+        const data = await DataLoader.loadDailyReportJSON(jsonDataURL);
         await setEngagementRateData(data);
       } else {
         const chartBuilder = new ChartBuilder();

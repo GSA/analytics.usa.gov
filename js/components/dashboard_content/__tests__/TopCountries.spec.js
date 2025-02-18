@@ -8,7 +8,7 @@ import CountriesReportFactory from "../../../../spec/factories/reports/countries
 
 jest.mock("../../../lib/data_loader", () => ({
   ...jest.requireActual("../../../lib/data_loader"),
-  loadJSON: jest.fn(),
+  loadRealtimeReportJSON: jest.fn(),
 }));
 
 describe("TopCountries", () => {
@@ -16,7 +16,7 @@ describe("TopCountries", () => {
 
   describe("when data is not loaded", () => {
     beforeEach(async () => {
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadRealtimeReportJSON.mockImplementation(() => {
         return Promise.resolve(null);
       });
       component = render(
@@ -39,7 +39,7 @@ describe("TopCountries", () => {
     describe("and all country names are valid", () => {
       beforeEach(async () => {
         data = CountriesReportFactory.build();
-        DataLoader.loadJSON.mockImplementation(() => {
+        DataLoader.loadRealtimeReportJSON.mockImplementation(() => {
           return Promise.resolve(data);
         });
         component = render(
@@ -64,7 +64,7 @@ describe("TopCountries", () => {
       beforeEach(async () => {
         data = CountriesReportFactory.build();
         data.data[0].country = "";
-        DataLoader.loadJSON.mockImplementation(() => {
+        DataLoader.loadRealtimeReportJSON.mockImplementation(() => {
           return Promise.resolve(data);
         });
         component = render(
@@ -89,7 +89,7 @@ describe("TopCountries", () => {
       beforeEach(async () => {
         data = CountriesReportFactory.build();
         data.data[0].country = null;
-        DataLoader.loadJSON.mockImplementation(() => {
+        DataLoader.loadRealtimeReportJSON.mockImplementation(() => {
           return Promise.resolve(data);
         });
         component = render(
@@ -114,7 +114,7 @@ describe("TopCountries", () => {
       beforeEach(async () => {
         data = CountriesReportFactory.build();
         data.data[0].country = undefined;
-        DataLoader.loadJSON.mockImplementation(() => {
+        DataLoader.loadRealtimeReportJSON.mockImplementation(() => {
           return Promise.resolve(data);
         });
         component = render(
@@ -141,7 +141,7 @@ describe("TopCountries", () => {
 
     beforeEach(async () => {
       console.error = jest.fn();
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadRealtimeReportJSON.mockImplementation(() => {
         return Promise.reject(error);
       });
       component = render(

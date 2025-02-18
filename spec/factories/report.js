@@ -32,6 +32,7 @@ const ReportFactory = Factory.define(({ sequence, transientParams }) => {
     totals: {
       visits: faker.number.int({ max: 10000 }),
     },
+    taken_at: new Date().toISOString(),
   };
   faker.seed(global.faker_seed);
   return item;

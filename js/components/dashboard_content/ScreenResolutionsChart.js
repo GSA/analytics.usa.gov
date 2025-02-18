@@ -40,7 +40,7 @@ function ScreenResolutionsChart({ dataHrefBase }) {
     let data;
 
     try {
-      data = await DataLoader.loadJSON(
+      data = await DataLoader.loadDailyReportJSON(
         `${dataHrefBase}/${currentFilter[1]}.json`,
       );
     } catch (e) {

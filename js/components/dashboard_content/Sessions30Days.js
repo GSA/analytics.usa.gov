@@ -26,7 +26,7 @@ function Sessions30Days({ dataHrefBase }) {
   useEffect(() => {
     const initSessionsChart = async () => {
       if (!sessionData) {
-        const data = await DataLoader.loadJSON(jsonDataURL);
+        const data = await DataLoader.loadDailyReportJSON(jsonDataURL);
         await setSessionData(data);
       } else {
         const chartBuilder = new ChartBuilder();

@@ -7,7 +7,7 @@ import TopVideoPlays from "../TopVideoPlays";
 
 jest.mock("../../../lib/data_loader", () => ({
   ...jest.requireActual("../../../lib/data_loader"),
-  loadJSON: jest.fn(),
+  loadDailyReportJSON: jest.fn(),
 }));
 
 describe("TopVideoPlays", () => {
@@ -160,7 +160,7 @@ describe("TopVideoPlays", () => {
       totals: {},
       taken_at: "2024-07-11T14:36:05.272Z",
     };
-    DataLoader.loadJSON.mockImplementation(() => {
+    DataLoader.loadDailyReportJSON.mockImplementation(() => {
       return Promise.resolve(data);
     });
 

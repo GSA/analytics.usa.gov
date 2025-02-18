@@ -23,7 +23,7 @@ function Visitors30Days({ dataHrefBase }) {
   useEffect(() => {
     const initVisitorsChart = async () => {
       if (!visitorData) {
-        const data = await DataLoader.loadJSON(dataURL);
+        const data = await DataLoader.loadDailyReportJSON(dataURL);
         await setVisitorData(data);
       } else {
         const chartBuilder = new ChartBuilder();

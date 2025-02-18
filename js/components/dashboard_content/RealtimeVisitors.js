@@ -26,12 +26,12 @@ function RealtimeVisitors({ dataHrefBase, agency, refreshSeconds }) {
   useEffect(() => {
     const initRealtimeVisitorsChart = async () => {
       if (!realtimeVisitorData) {
-        const data = await DataLoader.loadJSON(dataURL);
+        const data = await DataLoader.loadRealtimeReportJSON(dataURL);
         await setRealtimeVisitorData(data);
         // Refresh data every interval. useEffect will run and update the chart
         // when the state is changed.
         setInterval(() => {
-          DataLoader.loadJSON(dataURL).then((data) => {
+          DataLoader.loadRealtimeReportJSON(dataURL).then((data) => {
             setRealtimeVisitorData(data);
           });
         }, refreshSeconds * 1000);

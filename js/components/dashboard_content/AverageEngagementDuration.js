@@ -26,7 +26,7 @@ function AverageEngagementDuration({ dataHrefBase }) {
   useEffect(() => {
     const initEngagementDurationsChart = async () => {
       if (!engagementDurationData) {
-        const data = await DataLoader.loadJSON(jsonDataURL);
+        const data = await DataLoader.loadDailyReportJSON(jsonDataURL);
         await setEngagementDurationData(data);
       } else {
         const chartBuilder = new ChartBuilder();

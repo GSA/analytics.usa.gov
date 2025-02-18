@@ -25,6 +25,8 @@ window.fetch = jest.fn(() => {
   };
 });
 
+window.gas4 = jest.fn();
+
 // Stub Math.random.  Used to create random ids for tooltip element.
 const mockMath = Object.create(global.Math);
 mockMath.random = () => 0.5;

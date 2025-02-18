@@ -8,7 +8,7 @@ import CitiesReportFactory from "../../../../spec/factories/reports/cities";
 
 jest.mock("../../../lib/data_loader", () => ({
   ...jest.requireActual("../../../lib/data_loader"),
-  loadJSON: jest.fn(),
+  loadRealtimeReportJSON: jest.fn(),
 }));
 
 describe("TopCities", () => {
@@ -16,7 +16,7 @@ describe("TopCities", () => {
 
   describe("when data is not loaded", () => {
     beforeEach(() => {
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadRealtimeReportJSON.mockImplementation(() => {
         return Promise.resolve(null);
       });
       component = render(
@@ -40,7 +40,7 @@ describe("TopCities", () => {
       data.data.forEach((item) => {
         data.totals.by_city[item.city] = item.activeUsers;
       });
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadRealtimeReportJSON.mockImplementation(() => {
         return Promise.resolve(data);
       });
       component = render(
@@ -65,7 +65,7 @@ describe("TopCities", () => {
 
     beforeEach(() => {
       console.error = jest.fn();
-      DataLoader.loadJSON.mockImplementation(() => {
+      DataLoader.loadRealtimeReportJSON.mockImplementation(() => {
         return Promise.reject(error);
       });
       component = render(
