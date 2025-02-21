@@ -23,6 +23,10 @@ function TopLanguages({ dataHrefBase }) {
     ["7 Days", "languages-7-days"],
     ["30 Days", "languages-30-days"],
     ["90 Days", "languages-90-days"],
+    ["Current Year", "languages-current-year"],
+    ["Current Fiscal Year", "languages-current-fiscal-year"],
+    ["Previous Year", "languages-previous-year"],
+    ["Previous Fiscal Year", "languages-previous-fiscal-year"],
   ];
   const [currentFilter, setCurrentFilter] = useState(reportFilters[0]);
   const [data, setData] = useState(null);
@@ -63,14 +67,6 @@ function TopLanguages({ dataHrefBase }) {
     <>
       <div className="grid-row">
         <div className="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0">
-          <a href="/definitions#dimension_language">
-            <Tooltip
-              position="top"
-              content="The name of the language of a user's browser or device."
-            >
-              Languages
-            </Tooltip>
-          </a>
           <a
             href={`${dataHrefBase}/${currentFilter[1]}.csv`}
             aria-label={`${currentFilter[1]}.csv`}
@@ -83,6 +79,14 @@ function TopLanguages({ dataHrefBase }) {
             >
               <use xlinkHref="/assets/uswds/img/sprite.svg#file_present"></use>
             </svg>
+          </a>
+          <a href="/definitions#dimension_language">
+            <Tooltip
+              position="top"
+              content="The name of the language of a user's browser or device."
+            >
+              Languages
+            </Tooltip>
           </a>
         </div>
         <div className="card:grid-col-12 mobile-lg:grid-col-auto">

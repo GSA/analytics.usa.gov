@@ -30,6 +30,10 @@ function TopVideoPlays({ agency, dataHrefBase, numberOfListingsToDisplay }) {
     ["7 Days", "top-video-plays-7-days"],
     ["30 Days", "top-video-plays-30-days"],
     ["90 Days", "top-video-plays-90-days"],
+    ["Current Year", "top-video-plays-current-year"],
+    ["Current Fiscal Year", "top-video-plays-current-fiscal-year"],
+    ["Previous Year", "top-video-plays-previous-year"],
+    ["Previous Fiscal Year", "top-video-plays-previous-fiscal-year"],
   ];
   const [currentFilter, setCurrentFilter] = useState(reportFilters[0]);
   const [shouldDisplayVideoPlays, setShouldDisplayVideoPlays] = useState(true);

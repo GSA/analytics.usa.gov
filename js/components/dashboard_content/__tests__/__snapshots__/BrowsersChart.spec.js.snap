@@ -9,6 +9,21 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
       class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
     >
       <a
+        aria-label="browsers-yesterday.csv"
+        href="http://www.example.com/data//browsers-yesterday.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_present"
+          />
+        </svg>
+      </a>
+      <a
         href="/definitions#dimension_browser"
       >
         <span
@@ -31,21 +46,6 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
             The name of the web browser used by the user to access the site.
           </span>
         </span>
-      </a>
-      <a
-        aria-label="browsers-yesterday.csv"
-        href="http://www.example.com/data//browsers-yesterday.csv"
-      >
-        <svg
-          aria-hidden="true"
-          class="usa-icon margin-bottom-neg-05 margin-left-05"
-          focusable="false"
-          role="img"
-        >
-          <use
-            xlink:href="/assets/uswds/img/sprite.svg#file_present"
-          />
-        </svg>
       </a>
     </div>
     <div
@@ -77,6 +77,26 @@ exports[`BrowsersChart when data is loaded renders a component with data loaded 
             value="browsers-90-days"
           >
             90 Days
+          </option>
+          <option
+            value="browsers-current-year"
+          >
+            Current Year
+          </option>
+          <option
+            value="browsers-current-fiscal-year"
+          >
+            Current Fiscal Year
+          </option>
+          <option
+            value="browsers-previous-year"
+          >
+            Previous Year
+          </option>
+          <option
+            value="browsers-previous-fiscal-year"
+          >
+            Previous Fiscal Year
           </option>
         </select>
       </div>
@@ -392,6 +412,21 @@ exports[`BrowsersChart when data is not loaded renders a component in loading st
       class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
     >
       <a
+        aria-label="browsers-yesterday.csv"
+        href="http://www.example.com/data//browsers-yesterday.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_present"
+          />
+        </svg>
+      </a>
+      <a
         href="/definitions#dimension_browser"
       >
         <span
@@ -414,21 +449,6 @@ exports[`BrowsersChart when data is not loaded renders a component in loading st
             The name of the web browser used by the user to access the site.
           </span>
         </span>
-      </a>
-      <a
-        aria-label="browsers-yesterday.csv"
-        href="http://www.example.com/data//browsers-yesterday.csv"
-      >
-        <svg
-          aria-hidden="true"
-          class="usa-icon margin-bottom-neg-05 margin-left-05"
-          focusable="false"
-          role="img"
-        >
-          <use
-            xlink:href="/assets/uswds/img/sprite.svg#file_present"
-          />
-        </svg>
       </a>
     </div>
     <div
@@ -460,6 +480,26 @@ exports[`BrowsersChart when data is not loaded renders a component in loading st
             value="browsers-90-days"
           >
             90 Days
+          </option>
+          <option
+            value="browsers-current-year"
+          >
+            Current Year
+          </option>
+          <option
+            value="browsers-current-fiscal-year"
+          >
+            Current Fiscal Year
+          </option>
+          <option
+            value="browsers-previous-year"
+          >
+            Previous Year
+          </option>
+          <option
+            value="browsers-previous-fiscal-year"
+          >
+            Previous Fiscal Year
           </option>
         </select>
       </div>
@@ -477,6 +517,21 @@ exports[`BrowsersChart when data loading has an error renders a component in err
       class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
     >
       <a
+        aria-label="browsers-yesterday.csv"
+        href="http://www.example.com/data//browsers-yesterday.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_present"
+          />
+        </svg>
+      </a>
+      <a
         href="/definitions#dimension_browser"
       >
         <span
@@ -499,21 +554,6 @@ exports[`BrowsersChart when data loading has an error renders a component in err
             The name of the web browser used by the user to access the site.
           </span>
         </span>
-      </a>
-      <a
-        aria-label="browsers-yesterday.csv"
-        href="http://www.example.com/data//browsers-yesterday.csv"
-      >
-        <svg
-          aria-hidden="true"
-          class="usa-icon margin-bottom-neg-05 margin-left-05"
-          focusable="false"
-          role="img"
-        >
-          <use
-            xlink:href="/assets/uswds/img/sprite.svg#file_present"
-          />
-        </svg>
       </a>
     </div>
     <div
@@ -545,6 +585,26 @@ exports[`BrowsersChart when data loading has an error renders a component in err
             value="browsers-90-days"
           >
             90 Days
+          </option>
+          <option
+            value="browsers-current-year"
+          >
+            Current Year
+          </option>
+          <option
+            value="browsers-current-fiscal-year"
+          >
+            Current Fiscal Year
+          </option>
+          <option
+            value="browsers-previous-year"
+          >
+            Previous Year
+          </option>
+          <option
+            value="browsers-previous-fiscal-year"
+          >
+            Previous Fiscal Year
           </option>
         </select>
       </div>

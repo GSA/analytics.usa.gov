@@ -30,6 +30,10 @@ function TopPages({ dataHrefBase, numberOfListingsToDisplay, refreshSeconds }) {
     ["7 Days", "top-domains-7-days"],
     ["30 Days", "top-domains-30-days"],
     ["90 Days", "top-domains-90-days"],
+    ["Current Year", "top-domains-current-year"],
+    ["Current Fiscal Year", "top-domains-current-fiscal-year"],
+    ["Previous Year", "top-domains-previous-year"],
+    ["Previous Fiscal Year", "top-domains-previous-fiscal-year"],
   ];
   const [currentFilter, setCurrentFilter] = useState(reportFilters[0]);
   const [refreshInterval, setRefreshInterval] = useState(null);

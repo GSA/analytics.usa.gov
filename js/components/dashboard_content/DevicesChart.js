@@ -24,6 +24,10 @@ function DevicesChart({ dataHrefBase }) {
     ["7 Days", "devices-7-days"],
     ["30 Days", "devices-30-days"],
     ["90 Days", "devices-90-days"],
+    ["Current Year", "devices-current-year"],
+    ["Current Fiscal Year", "devices-current-fiscal-year"],
+    ["Previous Year", "devices-previous-year"],
+    ["Previous Fiscal Year", "devices-previous-fiscal-year"],
   ];
   const [currentFilter, setCurrentFilter] = useState(reportFilters[0]);
   const [data, setData] = useState(null);
@@ -71,14 +75,6 @@ function DevicesChart({ dataHrefBase }) {
     <>
       <div className="grid-row">
         <div className="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0">
-          <a href="/definitions#dimension_device_category">
-            <Tooltip
-              position="top"
-              content="The type category of the device used by the user to access the site or application."
-            >
-              Devices
-            </Tooltip>
-          </a>
           <a
             href={`${dataHrefBase}/${currentFilter[1]}.csv`}
             aria-label={`${currentFilter[1]}.csv`}
@@ -91,6 +87,14 @@ function DevicesChart({ dataHrefBase }) {
             >
               <use xlinkHref="/assets/uswds/img/sprite.svg#file_present"></use>
             </svg>
+          </a>
+          <a href="/definitions#dimension_device_category">
+            <Tooltip
+              position="top"
+              content="The type category of the device used by the user to access the site or application."
+            >
+              Devices
+            </Tooltip>
           </a>
         </div>
         <div className="card:grid-col-12 mobile-lg:grid-col-auto">

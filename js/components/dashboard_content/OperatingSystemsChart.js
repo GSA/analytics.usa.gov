@@ -25,6 +25,10 @@ function OperatingSystemsChart({ dataHrefBase }) {
     ["7 Days", "7-days"],
     ["30 Days", "30-days"],
     ["90 Days", "90-days"],
+    ["Current Year", "current-year"],
+    ["Current Fiscal Year", "current-fiscal-year"],
+    ["Previous Year", "previous-year"],
+    ["Previous Fiscal Year", "previous-fiscal-year"],
   ];
   const [currentFilter, setCurrentFilter] = useState(reportFilters[0]);
   const osRef = useRef(null);
@@ -99,14 +103,6 @@ function OperatingSystemsChart({ dataHrefBase }) {
     <div className="padding-0">
       <div className="grid-row">
         <div className="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0">
-          <a href="/definitions#dimension_operating_system">
-            <Tooltip
-              position="top"
-              content="The name of the operating system used by the user's device."
-            >
-              Operating Systems
-            </Tooltip>
-          </a>
           <a
             href={`${dataHrefBase}/os-${currentFilter[1]}.csv`}
             aria-label={`os-${currentFilter[1]}.csv`}
@@ -119,6 +115,14 @@ function OperatingSystemsChart({ dataHrefBase }) {
             >
               <use xlinkHref="/assets/uswds/img/sprite.svg#file_present"></use>
             </svg>
+          </a>
+          <a href="/definitions#dimension_operating_system">
+            <Tooltip
+              position="top"
+              content="The name of the operating system used by the user's device."
+            >
+              Operating Systems
+            </Tooltip>
           </a>
         </div>
         <div className="card:grid-col-12 mobile-lg:grid-col-auto">
