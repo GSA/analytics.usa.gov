@@ -9,6 +9,21 @@ exports[`DevicesChart when data is loaded renders a component with data loaded 1
       class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
     >
       <a
+        aria-label="devices-realtime.csv"
+        href="http://www.example.com/data//devices-realtime.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_present"
+          />
+        </svg>
+      </a>
+      <a
         href="/definitions#dimension_device_category"
       >
         <span
@@ -31,21 +46,6 @@ exports[`DevicesChart when data is loaded renders a component with data loaded 1
             The type category of the device used by the user to access the site or application.
           </span>
         </span>
-      </a>
-      <a
-        aria-label="devices-realtime.csv"
-        href="http://www.example.com/data//devices-realtime.csv"
-      >
-        <svg
-          aria-hidden="true"
-          class="usa-icon margin-bottom-neg-05 margin-left-05"
-          focusable="false"
-          role="img"
-        >
-          <use
-            xlink:href="/assets/uswds/img/sprite.svg#file_present"
-          />
-        </svg>
       </a>
     </div>
     <div
@@ -82,6 +82,26 @@ exports[`DevicesChart when data is loaded renders a component with data loaded 1
             value="devices-90-days"
           >
             90 Days
+          </option>
+          <option
+            value="devices-current-year"
+          >
+            Current Year
+          </option>
+          <option
+            value="devices-current-fiscal-year"
+          >
+            Current Fiscal Year
+          </option>
+          <option
+            value="devices-previous-year"
+          >
+            Previous Year
+          </option>
+          <option
+            value="devices-previous-fiscal-year"
+          >
+            Previous Fiscal Year
           </option>
         </select>
       </div>
@@ -241,6 +261,21 @@ exports[`DevicesChart when data is not loaded renders a component in loading sta
       class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
     >
       <a
+        aria-label="devices-realtime.csv"
+        href="http://www.example.com/data//devices-realtime.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_present"
+          />
+        </svg>
+      </a>
+      <a
         href="/definitions#dimension_device_category"
       >
         <span
@@ -263,21 +298,6 @@ exports[`DevicesChart when data is not loaded renders a component in loading sta
             The type category of the device used by the user to access the site or application.
           </span>
         </span>
-      </a>
-      <a
-        aria-label="devices-realtime.csv"
-        href="http://www.example.com/data//devices-realtime.csv"
-      >
-        <svg
-          aria-hidden="true"
-          class="usa-icon margin-bottom-neg-05 margin-left-05"
-          focusable="false"
-          role="img"
-        >
-          <use
-            xlink:href="/assets/uswds/img/sprite.svg#file_present"
-          />
-        </svg>
       </a>
     </div>
     <div
@@ -314,6 +334,26 @@ exports[`DevicesChart when data is not loaded renders a component in loading sta
             value="devices-90-days"
           >
             90 Days
+          </option>
+          <option
+            value="devices-current-year"
+          >
+            Current Year
+          </option>
+          <option
+            value="devices-current-fiscal-year"
+          >
+            Current Fiscal Year
+          </option>
+          <option
+            value="devices-previous-year"
+          >
+            Previous Year
+          </option>
+          <option
+            value="devices-previous-fiscal-year"
+          >
+            Previous Fiscal Year
           </option>
         </select>
       </div>
@@ -331,6 +371,21 @@ exports[`DevicesChart when data loading has an error renders a component in erro
       class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
     >
       <a
+        aria-label="devices-realtime.csv"
+        href="http://www.example.com/data//devices-realtime.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_present"
+          />
+        </svg>
+      </a>
+      <a
         href="/definitions#dimension_device_category"
       >
         <span
@@ -353,21 +408,6 @@ exports[`DevicesChart when data loading has an error renders a component in erro
             The type category of the device used by the user to access the site or application.
           </span>
         </span>
-      </a>
-      <a
-        aria-label="devices-realtime.csv"
-        href="http://www.example.com/data//devices-realtime.csv"
-      >
-        <svg
-          aria-hidden="true"
-          class="usa-icon margin-bottom-neg-05 margin-left-05"
-          focusable="false"
-          role="img"
-        >
-          <use
-            xlink:href="/assets/uswds/img/sprite.svg#file_present"
-          />
-        </svg>
       </a>
     </div>
     <div
@@ -404,6 +444,26 @@ exports[`DevicesChart when data loading has an error renders a component in erro
             value="devices-90-days"
           >
             90 Days
+          </option>
+          <option
+            value="devices-current-year"
+          >
+            Current Year
+          </option>
+          <option
+            value="devices-current-fiscal-year"
+          >
+            Current Fiscal Year
+          </option>
+          <option
+            value="devices-previous-year"
+          >
+            Previous Year
+          </option>
+          <option
+            value="devices-previous-fiscal-year"
+          >
+            Previous Fiscal Year
           </option>
         </select>
       </div>

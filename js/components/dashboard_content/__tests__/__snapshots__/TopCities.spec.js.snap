@@ -9,6 +9,21 @@ exports[`TopCities when data is loaded renders a component with data loaded 1`] 
       class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
     >
       <a
+        aria-label="top-cities-realtime.csv"
+        href="http://www.example.com/data//top-cities-realtime.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_present"
+          />
+        </svg>
+      </a>
+      <a
         href="/definitions#dimension_city"
       >
         <span
@@ -31,21 +46,6 @@ exports[`TopCities when data is loaded renders a component with data loaded 1`] 
             The city from which user activity originates. Location data may be affected by a user's VPN usage.
           </span>
         </span>
-      </a>
-      <a
-        aria-label="top-cities-realtime.csv"
-        href="http://www.example.com/data//top-cities-realtime.csv"
-      >
-        <svg
-          aria-hidden="true"
-          class="usa-icon margin-bottom-neg-05 margin-left-05"
-          focusable="false"
-          role="img"
-        >
-          <use
-            xlink:href="/assets/uswds/img/sprite.svg#file_present"
-          />
-        </svg>
       </a>
     </div>
     <div
@@ -82,6 +82,26 @@ exports[`TopCities when data is loaded renders a component with data loaded 1`] 
             value="top-cities-90-days"
           >
             90 Days
+          </option>
+          <option
+            value="top-cities-current-year"
+          >
+            Current Year
+          </option>
+          <option
+            value="top-cities-current-fiscal-year"
+          >
+            Current Fiscal Year
+          </option>
+          <option
+            value="top-cities-previous-year"
+          >
+            Previous Year
+          </option>
+          <option
+            value="top-cities-previous-fiscal-year"
+          >
+            Previous Fiscal Year
           </option>
         </select>
       </div>
@@ -371,6 +391,21 @@ exports[`TopCities when data is not loaded renders a component in loading state 
       class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
     >
       <a
+        aria-label="top-cities-realtime.csv"
+        href="http://www.example.com/data//top-cities-realtime.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_present"
+          />
+        </svg>
+      </a>
+      <a
         href="/definitions#dimension_city"
       >
         <span
@@ -393,21 +428,6 @@ exports[`TopCities when data is not loaded renders a component in loading state 
             The city from which user activity originates. Location data may be affected by a user's VPN usage.
           </span>
         </span>
-      </a>
-      <a
-        aria-label="top-cities-realtime.csv"
-        href="http://www.example.com/data//top-cities-realtime.csv"
-      >
-        <svg
-          aria-hidden="true"
-          class="usa-icon margin-bottom-neg-05 margin-left-05"
-          focusable="false"
-          role="img"
-        >
-          <use
-            xlink:href="/assets/uswds/img/sprite.svg#file_present"
-          />
-        </svg>
       </a>
     </div>
     <div
@@ -444,6 +464,26 @@ exports[`TopCities when data is not loaded renders a component in loading state 
             value="top-cities-90-days"
           >
             90 Days
+          </option>
+          <option
+            value="top-cities-current-year"
+          >
+            Current Year
+          </option>
+          <option
+            value="top-cities-current-fiscal-year"
+          >
+            Current Fiscal Year
+          </option>
+          <option
+            value="top-cities-previous-year"
+          >
+            Previous Year
+          </option>
+          <option
+            value="top-cities-previous-fiscal-year"
+          >
+            Previous Fiscal Year
           </option>
         </select>
       </div>
@@ -461,6 +501,21 @@ exports[`TopCities when data loading has an error renders a component in error s
       class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
     >
       <a
+        aria-label="top-cities-realtime.csv"
+        href="http://www.example.com/data//top-cities-realtime.csv"
+      >
+        <svg
+          aria-hidden="true"
+          class="usa-icon margin-bottom-neg-05 margin-left-05"
+          focusable="false"
+          role="img"
+        >
+          <use
+            xlink:href="/assets/uswds/img/sprite.svg#file_present"
+          />
+        </svg>
+      </a>
+      <a
         href="/definitions#dimension_city"
       >
         <span
@@ -483,21 +538,6 @@ exports[`TopCities when data loading has an error renders a component in error s
             The city from which user activity originates. Location data may be affected by a user's VPN usage.
           </span>
         </span>
-      </a>
-      <a
-        aria-label="top-cities-realtime.csv"
-        href="http://www.example.com/data//top-cities-realtime.csv"
-      >
-        <svg
-          aria-hidden="true"
-          class="usa-icon margin-bottom-neg-05 margin-left-05"
-          focusable="false"
-          role="img"
-        >
-          <use
-            xlink:href="/assets/uswds/img/sprite.svg#file_present"
-          />
-        </svg>
       </a>
     </div>
     <div
@@ -534,6 +574,26 @@ exports[`TopCities when data loading has an error renders a component in error s
             value="top-cities-90-days"
           >
             90 Days
+          </option>
+          <option
+            value="top-cities-current-year"
+          >
+            Current Year
+          </option>
+          <option
+            value="top-cities-current-fiscal-year"
+          >
+            Current Fiscal Year
+          </option>
+          <option
+            value="top-cities-previous-year"
+          >
+            Previous Year
+          </option>
+          <option
+            value="top-cities-previous-fiscal-year"
+          >
+            Previous Fiscal Year
           </option>
         </select>
       </div>

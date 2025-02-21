@@ -29,6 +29,10 @@ function TopDownloads({ agency, dataHrefBase, numberOfListingsToDisplay }) {
     ["7 Days", "top-downloads-7-days"],
     ["30 Days", "top-downloads-30-days"],
     ["90 Days", "top-downloads-90-days"],
+    ["Current Year", "top-downloads-current-year"],
+    ["Current Fiscal Year", "top-downloads-current-fiscal-year"],
+    ["Previous Year", "top-downloads-previous-year"],
+    ["Previous Fiscal Year", "top-downloads-previous-fiscal-year"],
   ];
   const [currentFilter, setCurrentFilter] = useState(reportFilters[0]);
   const [shouldDisplayDownloads, setShouldDisplayDownloads] = useState(true);

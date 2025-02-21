@@ -26,6 +26,10 @@ function TopCities({ dataHrefBase, refreshSeconds }) {
     ["7 Days", "top-cities-7-days"],
     ["30 Days", "top-cities-30-days"],
     ["90 Days", "top-cities-90-days"],
+    ["Current Year", "top-cities-current-year"],
+    ["Current Fiscal Year", "top-cities-current-fiscal-year"],
+    ["Previous Year", "top-cities-previous-year"],
+    ["Previous Fiscal Year", "top-cities-previous-fiscal-year"],
   ];
   const [currentFilter, setCurrentFilter] = useState(reportFilters[0]);
   const [refreshInterval, setRefreshInterval] = useState(null);
@@ -83,14 +87,6 @@ function TopCities({ dataHrefBase, refreshSeconds }) {
     <>
       <div className="grid-row">
         <div className="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0">
-          <a href="/definitions#dimension_city">
-            <Tooltip
-              position="top"
-              content="The city from which user activity originates. Location data may be affected by a user's VPN usage."
-            >
-              Cities
-            </Tooltip>
-          </a>
           <a
             href={`${dataHrefBase}/${currentFilter[1]}.csv`}
             aria-label={`${currentFilter[1]}.csv`}
@@ -103,6 +99,14 @@ function TopCities({ dataHrefBase, refreshSeconds }) {
             >
               <use xlinkHref="/assets/uswds/img/sprite.svg#file_present"></use>
             </svg>
+          </a>
+          <a href="/definitions#dimension_city">
+            <Tooltip
+              position="top"
+              content="The city from which user activity originates. Location data may be affected by a user's VPN usage."
+            >
+              Cities
+            </Tooltip>
           </a>
         </div>
         <div className="card:grid-col-12 mobile-lg:grid-col-auto">

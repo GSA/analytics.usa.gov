@@ -12,6 +12,21 @@ exports[`TopCountries when data is loaded and a country with name "" exists rend
         class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
       >
         <a
+          aria-label="top-countries-realtime.csv"
+          href="http://www.example.com/data//top-countries-realtime.csv"
+        >
+          <svg
+            aria-hidden="true"
+            class="usa-icon margin-bottom-neg-05 margin-left-05"
+            focusable="false"
+            role="img"
+          >
+            <use
+              xlink:href="/assets/uswds/img/sprite.svg#file_present"
+            />
+          </svg>
+        </a>
+        <a
           href="/definitions#dimension_country"
         >
           <span
@@ -34,21 +49,6 @@ exports[`TopCountries when data is loaded and a country with name "" exists rend
               The country from which user activity originates. Location data may be affected by a user's VPN usage.
             </span>
           </span>
-        </a>
-        <a
-          aria-label="top-countries-realtime.csv"
-          href="http://www.example.com/data//top-countries-realtime.csv"
-        >
-          <svg
-            aria-hidden="true"
-            class="usa-icon margin-bottom-neg-05 margin-left-05"
-            focusable="false"
-            role="img"
-          >
-            <use
-              xlink:href="/assets/uswds/img/sprite.svg#file_present"
-            />
-          </svg>
         </a>
       </div>
       <div
@@ -85,6 +85,26 @@ exports[`TopCountries when data is loaded and a country with name "" exists rend
               value="top-countries-90-days"
             >
               90 Days
+            </option>
+            <option
+              value="top-countries-current-year"
+            >
+              Current Year
+            </option>
+            <option
+              value="top-countries-current-fiscal-year"
+            >
+              Current Fiscal Year
+            </option>
+            <option
+              value="top-countries-previous-year"
+            >
+              Previous Year
+            </option>
+            <option
+              value="top-countries-previous-fiscal-year"
+            >
+              Previous Fiscal Year
             </option>
           </select>
         </div>
@@ -562,6 +582,21 @@ exports[`TopCountries when data is loaded and a country with name null exists re
         class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
       >
         <a
+          aria-label="top-countries-realtime.csv"
+          href="http://www.example.com/data//top-countries-realtime.csv"
+        >
+          <svg
+            aria-hidden="true"
+            class="usa-icon margin-bottom-neg-05 margin-left-05"
+            focusable="false"
+            role="img"
+          >
+            <use
+              xlink:href="/assets/uswds/img/sprite.svg#file_present"
+            />
+          </svg>
+        </a>
+        <a
           href="/definitions#dimension_country"
         >
           <span
@@ -584,21 +619,6 @@ exports[`TopCountries when data is loaded and a country with name null exists re
               The country from which user activity originates. Location data may be affected by a user's VPN usage.
             </span>
           </span>
-        </a>
-        <a
-          aria-label="top-countries-realtime.csv"
-          href="http://www.example.com/data//top-countries-realtime.csv"
-        >
-          <svg
-            aria-hidden="true"
-            class="usa-icon margin-bottom-neg-05 margin-left-05"
-            focusable="false"
-            role="img"
-          >
-            <use
-              xlink:href="/assets/uswds/img/sprite.svg#file_present"
-            />
-          </svg>
         </a>
       </div>
       <div
@@ -635,6 +655,26 @@ exports[`TopCountries when data is loaded and a country with name null exists re
               value="top-countries-90-days"
             >
               90 Days
+            </option>
+            <option
+              value="top-countries-current-year"
+            >
+              Current Year
+            </option>
+            <option
+              value="top-countries-current-fiscal-year"
+            >
+              Current Fiscal Year
+            </option>
+            <option
+              value="top-countries-previous-year"
+            >
+              Previous Year
+            </option>
+            <option
+              value="top-countries-previous-fiscal-year"
+            >
+              Previous Fiscal Year
             </option>
           </select>
         </div>
@@ -1112,6 +1152,21 @@ exports[`TopCountries when data is loaded and a country with name undefined exis
         class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
       >
         <a
+          aria-label="top-countries-realtime.csv"
+          href="http://www.example.com/data//top-countries-realtime.csv"
+        >
+          <svg
+            aria-hidden="true"
+            class="usa-icon margin-bottom-neg-05 margin-left-05"
+            focusable="false"
+            role="img"
+          >
+            <use
+              xlink:href="/assets/uswds/img/sprite.svg#file_present"
+            />
+          </svg>
+        </a>
+        <a
           href="/definitions#dimension_country"
         >
           <span
@@ -1134,21 +1189,6 @@ exports[`TopCountries when data is loaded and a country with name undefined exis
               The country from which user activity originates. Location data may be affected by a user's VPN usage.
             </span>
           </span>
-        </a>
-        <a
-          aria-label="top-countries-realtime.csv"
-          href="http://www.example.com/data//top-countries-realtime.csv"
-        >
-          <svg
-            aria-hidden="true"
-            class="usa-icon margin-bottom-neg-05 margin-left-05"
-            focusable="false"
-            role="img"
-          >
-            <use
-              xlink:href="/assets/uswds/img/sprite.svg#file_present"
-            />
-          </svg>
         </a>
       </div>
       <div
@@ -1185,6 +1225,26 @@ exports[`TopCountries when data is loaded and a country with name undefined exis
               value="top-countries-90-days"
             >
               90 Days
+            </option>
+            <option
+              value="top-countries-current-year"
+            >
+              Current Year
+            </option>
+            <option
+              value="top-countries-current-fiscal-year"
+            >
+              Current Fiscal Year
+            </option>
+            <option
+              value="top-countries-previous-year"
+            >
+              Previous Year
+            </option>
+            <option
+              value="top-countries-previous-fiscal-year"
+            >
+              Previous Fiscal Year
             </option>
           </select>
         </div>
@@ -1743,6 +1803,21 @@ exports[`TopCountries when data is loaded and all country names are valid render
         class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
       >
         <a
+          aria-label="top-countries-realtime.csv"
+          href="http://www.example.com/data//top-countries-realtime.csv"
+        >
+          <svg
+            aria-hidden="true"
+            class="usa-icon margin-bottom-neg-05 margin-left-05"
+            focusable="false"
+            role="img"
+          >
+            <use
+              xlink:href="/assets/uswds/img/sprite.svg#file_present"
+            />
+          </svg>
+        </a>
+        <a
           href="/definitions#dimension_country"
         >
           <span
@@ -1765,21 +1840,6 @@ exports[`TopCountries when data is loaded and all country names are valid render
               The country from which user activity originates. Location data may be affected by a user's VPN usage.
             </span>
           </span>
-        </a>
-        <a
-          aria-label="top-countries-realtime.csv"
-          href="http://www.example.com/data//top-countries-realtime.csv"
-        >
-          <svg
-            aria-hidden="true"
-            class="usa-icon margin-bottom-neg-05 margin-left-05"
-            focusable="false"
-            role="img"
-          >
-            <use
-              xlink:href="/assets/uswds/img/sprite.svg#file_present"
-            />
-          </svg>
         </a>
       </div>
       <div
@@ -1816,6 +1876,26 @@ exports[`TopCountries when data is loaded and all country names are valid render
               value="top-countries-90-days"
             >
               90 Days
+            </option>
+            <option
+              value="top-countries-current-year"
+            >
+              Current Year
+            </option>
+            <option
+              value="top-countries-current-fiscal-year"
+            >
+              Current Fiscal Year
+            </option>
+            <option
+              value="top-countries-previous-year"
+            >
+              Previous Year
+            </option>
+            <option
+              value="top-countries-previous-fiscal-year"
+            >
+              Previous Fiscal Year
             </option>
           </select>
         </div>
@@ -2374,6 +2454,21 @@ exports[`TopCountries when data is not loaded renders a component in loading sta
         class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
       >
         <a
+          aria-label="top-countries-realtime.csv"
+          href="http://www.example.com/data//top-countries-realtime.csv"
+        >
+          <svg
+            aria-hidden="true"
+            class="usa-icon margin-bottom-neg-05 margin-left-05"
+            focusable="false"
+            role="img"
+          >
+            <use
+              xlink:href="/assets/uswds/img/sprite.svg#file_present"
+            />
+          </svg>
+        </a>
+        <a
           href="/definitions#dimension_country"
         >
           <span
@@ -2396,21 +2491,6 @@ exports[`TopCountries when data is not loaded renders a component in loading sta
               The country from which user activity originates. Location data may be affected by a user's VPN usage.
             </span>
           </span>
-        </a>
-        <a
-          aria-label="top-countries-realtime.csv"
-          href="http://www.example.com/data//top-countries-realtime.csv"
-        >
-          <svg
-            aria-hidden="true"
-            class="usa-icon margin-bottom-neg-05 margin-left-05"
-            focusable="false"
-            role="img"
-          >
-            <use
-              xlink:href="/assets/uswds/img/sprite.svg#file_present"
-            />
-          </svg>
         </a>
       </div>
       <div
@@ -2447,6 +2527,26 @@ exports[`TopCountries when data is not loaded renders a component in loading sta
               value="top-countries-90-days"
             >
               90 Days
+            </option>
+            <option
+              value="top-countries-current-year"
+            >
+              Current Year
+            </option>
+            <option
+              value="top-countries-current-fiscal-year"
+            >
+              Current Fiscal Year
+            </option>
+            <option
+              value="top-countries-previous-year"
+            >
+              Previous Year
+            </option>
+            <option
+              value="top-countries-previous-fiscal-year"
+            >
+              Previous Fiscal Year
             </option>
           </select>
         </div>
@@ -2491,6 +2591,21 @@ exports[`TopCountries when data loading has an error renders a component in erro
         class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
       >
         <a
+          aria-label="top-countries-realtime.csv"
+          href="http://www.example.com/data//top-countries-realtime.csv"
+        >
+          <svg
+            aria-hidden="true"
+            class="usa-icon margin-bottom-neg-05 margin-left-05"
+            focusable="false"
+            role="img"
+          >
+            <use
+              xlink:href="/assets/uswds/img/sprite.svg#file_present"
+            />
+          </svg>
+        </a>
+        <a
           href="/definitions#dimension_country"
         >
           <span
@@ -2513,21 +2628,6 @@ exports[`TopCountries when data loading has an error renders a component in erro
               The country from which user activity originates. Location data may be affected by a user's VPN usage.
             </span>
           </span>
-        </a>
-        <a
-          aria-label="top-countries-realtime.csv"
-          href="http://www.example.com/data//top-countries-realtime.csv"
-        >
-          <svg
-            aria-hidden="true"
-            class="usa-icon margin-bottom-neg-05 margin-left-05"
-            focusable="false"
-            role="img"
-          >
-            <use
-              xlink:href="/assets/uswds/img/sprite.svg#file_present"
-            />
-          </svg>
         </a>
       </div>
       <div
@@ -2564,6 +2664,26 @@ exports[`TopCountries when data loading has an error renders a component in erro
               value="top-countries-90-days"
             >
               90 Days
+            </option>
+            <option
+              value="top-countries-current-year"
+            >
+              Current Year
+            </option>
+            <option
+              value="top-countries-current-fiscal-year"
+            >
+              Current Fiscal Year
+            </option>
+            <option
+              value="top-countries-previous-year"
+            >
+              Previous Year
+            </option>
+            <option
+              value="top-countries-previous-fiscal-year"
+            >
+              Previous Fiscal Year
             </option>
           </select>
         </div>

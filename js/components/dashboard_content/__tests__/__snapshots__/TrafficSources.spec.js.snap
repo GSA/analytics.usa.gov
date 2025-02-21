@@ -18,6 +18,21 @@ exports[`TrafficSources renders 1`] = `
             class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
           >
             <a
+              aria-label="top-session-channel-group-yesterday.csv"
+              href="http://www.example.com/data//top-session-channel-group-yesterday.csv"
+            >
+              <svg
+                aria-hidden="true"
+                class="usa-icon margin-bottom-neg-05 margin-left-05"
+                focusable="false"
+                role="img"
+              >
+                <use
+                  xlink:href="/assets/uswds/img/sprite.svg#file_present"
+                />
+              </svg>
+            </a>
+            <a
               href="/definitions#dimension_default_channel_group"
             >
               <span
@@ -40,21 +55,6 @@ exports[`TrafficSources renders 1`] = `
                   Channel groupings are rule-based definitions of your traffic sources.
                 </span>
               </span>
-            </a>
-            <a
-              aria-label="top-session-channel-group-yesterday.csv"
-              href="http://www.example.com/data//top-session-channel-group-yesterday.csv"
-            >
-              <svg
-                aria-hidden="true"
-                class="usa-icon margin-bottom-neg-05 margin-left-05"
-                focusable="false"
-                role="img"
-              >
-                <use
-                  xlink:href="/assets/uswds/img/sprite.svg#file_present"
-                />
-              </svg>
             </a>
           </div>
           <div
@@ -87,6 +87,26 @@ exports[`TrafficSources renders 1`] = `
                 >
                   90 Days
                 </option>
+                <option
+                  value="top-session-channel-group-current-year"
+                >
+                  Current Year
+                </option>
+                <option
+                  value="top-session-channel-group-current-fiscal-year"
+                >
+                  Current Fiscal Year
+                </option>
+                <option
+                  value="top-session-channel-group-previous-year"
+                >
+                  Previous Year
+                </option>
+                <option
+                  value="top-session-channel-group-previous-fiscal-year"
+                >
+                  Previous Fiscal Year
+                </option>
               </select>
             </div>
           </div>
@@ -117,6 +137,21 @@ exports[`TrafficSources renders 1`] = `
             class="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0"
           >
             <a
+              aria-label="top-session-source-medium-yesterday.csv"
+              href="http://www.example.com/data//top-session-source-medium-yesterday.csv"
+            >
+              <svg
+                aria-hidden="true"
+                class="usa-icon margin-bottom-neg-05 margin-left-05"
+                focusable="false"
+                role="img"
+              >
+                <use
+                  xlink:href="/assets/uswds/img/sprite.svg#file_present"
+                />
+              </svg>
+            </a>
+            <a
               href="/definitions#dimension_source_medium"
             >
               <span
@@ -139,21 +174,6 @@ exports[`TrafficSources renders 1`] = `
                   A source is a representation of the publisher or inventory source from which traffic originated. A medium is a method for acquiring users to websites or applications.
                 </span>
               </span>
-            </a>
-            <a
-              aria-label="top-session-source-medium-yesterday.csv"
-              href="http://www.example.com/data//top-session-source-medium-yesterday.csv"
-            >
-              <svg
-                aria-hidden="true"
-                class="usa-icon margin-bottom-neg-05 margin-left-05"
-                focusable="false"
-                role="img"
-              >
-                <use
-                  xlink:href="/assets/uswds/img/sprite.svg#file_present"
-                />
-              </svg>
             </a>
           </div>
           <div
@@ -185,6 +205,26 @@ exports[`TrafficSources renders 1`] = `
                   value="top-session-source-medium-90-days"
                 >
                   90 Days
+                </option>
+                <option
+                  value="top-session-source-medium-current-year"
+                >
+                  Current Year
+                </option>
+                <option
+                  value="top-session-source-medium-current-fiscal-year"
+                >
+                  Current Fiscal Year
+                </option>
+                <option
+                  value="top-session-source-medium-previous-year"
+                >
+                  Previous Year
+                </option>
+                <option
+                  value="top-session-source-medium-previous-fiscal-year"
+                >
+                  Previous Fiscal Year
                 </option>
               </select>
             </div>

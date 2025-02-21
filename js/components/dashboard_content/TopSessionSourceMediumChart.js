@@ -23,6 +23,10 @@ function TopSessionSourceMediumChart({ dataHrefBase }) {
     ["7 Days", "top-session-source-medium-7-days"],
     ["30 Days", "top-session-source-medium-30-days"],
     ["90 Days", "top-session-source-medium-90-days"],
+    ["Current Year", "top-session-source-medium-current-year"],
+    ["Current Fiscal Year", "top-session-source-medium-current-fiscal-year"],
+    ["Previous Year", "top-session-source-medium-previous-year"],
+    ["Previous Fiscal Year", "top-session-source-medium-previous-fiscal-year"],
   ];
   const [currentFilter, setCurrentFilter] = useState(reportFilters[0]);
   const [data, setData] = useState(null);
@@ -63,14 +67,6 @@ function TopSessionSourceMediumChart({ dataHrefBase }) {
     <>
       <div className="grid-row">
         <div className="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0">
-          <a href="/definitions#dimension_source_medium">
-            <Tooltip
-              position="top"
-              content="A source is a representation of the publisher or inventory source from which traffic originated. A medium is a method for acquiring users to websites or applications."
-            >
-              Top Sources/Media
-            </Tooltip>
-          </a>
           <a
             href={`${dataHrefBase}/${currentFilter[1]}.csv`}
             aria-label={`${currentFilter[1]}.csv`}
@@ -83,6 +79,14 @@ function TopSessionSourceMediumChart({ dataHrefBase }) {
             >
               <use xlinkHref="/assets/uswds/img/sprite.svg#file_present"></use>
             </svg>
+          </a>
+          <a href="/definitions#dimension_source_medium">
+            <Tooltip
+              position="top"
+              content="A source is a representation of the publisher or inventory source from which traffic originated. A medium is a method for acquiring users to websites or applications."
+            >
+              Top Sources/Media
+            </Tooltip>
           </a>
         </div>
         <div className="card:grid-col-12 mobile-lg:grid-col-auto">

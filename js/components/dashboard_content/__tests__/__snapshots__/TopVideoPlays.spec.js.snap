@@ -66,6 +66,26 @@ exports[`TopVideoPlays renders a component with data loaded 1`] = `
           >
             90 Days
           </option>
+          <option
+            value="top-video-plays-current-year"
+          >
+            Current Year
+          </option>
+          <option
+            value="top-video-plays-current-fiscal-year"
+          >
+            Current Fiscal Year
+          </option>
+          <option
+            value="top-video-plays-previous-year"
+          >
+            Previous Year
+          </option>
+          <option
+            value="top-video-plays-previous-fiscal-year"
+          >
+            Previous Fiscal Year
+          </option>
         </select>
       </div>
     </div>

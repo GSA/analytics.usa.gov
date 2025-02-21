@@ -23,6 +23,10 @@ function BrowsersChart({ dataHrefBase }) {
     ["7 Days", "browsers-7-days"],
     ["30 Days", "browsers-30-days"],
     ["90 Days", "browsers-90-days"],
+    ["Current Year", "browsers-current-year"],
+    ["Current Fiscal Year", "browsers-current-fiscal-year"],
+    ["Previous Year", "browsers-previous-year"],
+    ["Previous Fiscal Year", "browsers-previous-fiscal-year"],
   ];
   const [currentFilter, setCurrentFilter] = useState(reportFilters[0]);
   const [data, setData] = useState(null);
@@ -63,14 +67,6 @@ function BrowsersChart({ dataHrefBase }) {
     <>
       <div className="grid-row">
         <div className="chart__title display-flex card:grid-col-12 mobile-lg:grid-col-fill card:flex-justify-center mobile-lg:flex-justify-start card:padding-bottom-105 mobile-lg:padding-bottom-0">
-          <a href="/definitions#dimension_browser">
-            <Tooltip
-              position="top"
-              content="The name of the web browser used by the user to access the site."
-            >
-              Web Browsers
-            </Tooltip>
-          </a>
           <a
             href={`${dataHrefBase}/${currentFilter[1]}.csv`}
             aria-label={`${currentFilter[1]}.csv`}
@@ -83,6 +79,14 @@ function BrowsersChart({ dataHrefBase }) {
             >
               <use xlinkHref="/assets/uswds/img/sprite.svg#file_present"></use>
             </svg>
+          </a>
+          <a href="/definitions#dimension_browser">
+            <Tooltip
+              position="top"
+              content="The name of the web browser used by the user to access the site."
+            >
+              Web Browsers
+            </Tooltip>
           </a>
         </div>
         <div className="card:grid-col-12 mobile-lg:grid-col-auto">
