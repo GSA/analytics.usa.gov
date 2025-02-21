@@ -1,0 +1,27 @@
+<!--
+  The contents of this page are populated by react components. See
+  ./js/components/visualizations for the rendering logic.
+-->
+<main>
+  <div
+    id="visualizations-root"
+    class="padding-2"
+    dataURL="{{ site.data_url }}"
+    dataPrefix="live"
+  ></div>
+  <section class="grid-row">
+    <div id="touchpoints-page-helpful-survey-root" class="grid-col-12"></div>
+    <div
+      class="card:grid-offset-2 card:grid-col-8 mobile-lg:grid-offset-3 mobile-lg:grid-col-6 desktop:grid-offset-5 desktop:grid-col-2 margin-bottom-2"
+    >
+      <div
+        id="page-helpful-survey-score-root"
+        dataURL="{{ site.data_url }}"
+      ></div>
+      <div class="text-normal font-sans-lg text-center">
+        <p class="margin-y-1">Customer feedback</p>
+        <p class="margin-0">over the last 30 days</p>
+      </div>
+    </div>
+  </section>
+</main>
